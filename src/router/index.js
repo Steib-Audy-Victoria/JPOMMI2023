@@ -18,6 +18,9 @@ import ConnexionView from '../views/Compte/ConnexionView.vue'
 import InscriptionView from '../views/Compte/InscriptionView.vue'
 import CompteView from '../views/Compte/CompteView.vue'
 
+import MentionLegalView from '../views/MentionLegalView.vue'
+import PlanView from '../views/PlanView.vue'
+
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
@@ -50,6 +53,9 @@ const router = createRouter({
     { path: '/Connexion', name: 'Connexion', component: ConnexionView },
     { path: '/Inscription', name: 'Inscription', component: InscriptionView },
     { path: '/Compte', name: 'Compte', component: CompteView },
+
+    { path: '/ML', name: 'ML', component: MentionLegalView },
+    { path: '/Plan', name: 'Plan', component: PlanView },
   ]
 })
 
