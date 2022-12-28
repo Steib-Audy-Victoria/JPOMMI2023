@@ -1,0 +1,152 @@
+<script setup>
+import temoignageGauche from '@/components/temoignage_Gauche.vue';
+import temoignageDroite from '@/components/temoignage_Droite.vue';
+
+</script>
+
+<template>
+    <div class="py-12">
+        <h1 class="text-center text-xl md:text-2xl text-Blue01 font-semibold z-10">BUT MMI</h1>
+        <div class="flex justify-center items-center ">
+            <h2 class="text-center text-xl md:text-2xl text-Blue01 font-semibold z-10">PARCOURS CREATION NUMERIQUE</h2>
+            <div class="w-16 h-5 bg-Jaune -translate-x-11 translate-y-2 z-0"></div>
+        </div>
+    </div>
+
+    <!--Section 1 (S1): Qu’est-ce que le pôle Création ? -->
+    <section>
+        <div class="grid grid-cols-1 md:grid-cols-2">
+            <div class="flex flex-col justify-center items-center">
+                <h3 class="text-center text-lg md:text-xl text-Blue01 font-semibold py-4">Qu’est-ce que le pôle Création
+                    ?</h3>
+                <p class="px-10 py-2">Ce parcours s’appuie sur la compétence « <span
+                        class="font-semibold">Exprimer</span> », c’est-à-dire savoir <span
+                        class="font-semibold">communiquer un message</span>
+                    ou un <span class="font-semibold">discours</span> sur un ensemble de médias, sous la forme de <span
+                        class="font-semibold">création numérique</span> et d’<span class="font-semibold">écriture
+                        multimédia</span>.
+                    Ce parcours a pour but de former des designers, réalisateurs, infographistes, et vidéastes et
+                    d’apprendres les bases des métiers du design.</p>
+                <p class="px-10 py-2">
+                    <span class="font-semibold">Secteurs d’activités</span> : Agences de communication, agences web,
+                    agences publicitaires, services de communication des grandes entreprises ou organisations.Secteurs
+                    d’activités : Agences de communication, agences web, agences publicitaires,
+                    services de communication des grandes entreprises ou organisations.
+                </p>
+            </div>
+            <div class="flex justify-center items-center ">
+                <div class="bg-Jaune  z-0">
+                    <img class="z-10 -translate-x-8 translate-y-5" src="/public/DesignS1.webp" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Section 2 (S2): Les logiciels à découvrir -->
+    <section class="my-20">
+        <div class="grid grid-cols-1 md:grid-cols-2">
+            <div class="flex justify-center items-center">
+                <img src="/public/DesignS2Logos.svg" alt="">
+            </div>
+            <div class="flex flex-col justify-center items-center">
+                <h3 class="text-center text-lg md:text-xl text-Blue01 font-semibold py-4">Les logiciels à découvrir</h3>
+                <p class="px-10 pt-2">Dans le parcours création numérique, les étudiants sont amenés à utiliser de
+                    nombreux logiciels comme la <span class="font-semibold">suite Adobe</span>
+                    (notamment Illustrator et Photoshop), <span class="font-semibold">Figma</span> ou encore <span
+                        class="font-semibold">DaVinci Resolve</span> :</p>
+                <ul class="px-10 pb-2 list-disc">
+                    <li>Adobe Photoshop est un outil de <span class="font-semibold">création</span> et de <span
+                            class="font-semibold">retouche d’image</span>.</li>
+                    <li>Adobe Illustrator est un logiciel de <span class="font-semibold">design graphique</span> souvent
+                        utilisé pour produire des logos et icônes.</li>
+                    <li>Figma est un outil de <span class="font-semibold">création</span>, <span
+                            class="font-semibold">prototypage</span> pour réaliser des maquettes de site web.</li>
+                    <li>DaVinci Resolve est un logiciel de <span class="font-semibold">montage audio et vidéo</span>.
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!--Section 3 (S3): L’innovation au coeur des métiers du web -->
+    <section class="my-20">
+        <div class="grid grid-cols-1 md:grid-cols-2">
+            <div class="flex flex-col justify-center items-center">
+                <h3 class="text-center text-lg md:text-xl text-Blue01 font-semibold py-4">L’innovation au coeur des
+                    métiers du web
+                </h3>
+                <p class="px-10 py-2">Le web est un domaine où les métiers et les outils sont en constante <span
+                        class="font-semibold">évolution</span>
+                    et sont amené à de grands <span class="font-semibold">changement</span> au fil des années.
+                    La formation met un point d’honneur à se mettre à jour en même temps que le web, pour pouvoir
+                    proposer
+                    un enseignement de <span class="font-semibold">qualité</span> et aux <span
+                        class="font-semibold">normes</span> du milieu professionnel.</p>
+                <p class="px-10 py-2">Les étudiants ont la chance d’avoir la possibilité d’évoluer en même temps que le
+                    web durant leur formation, et d’être
+                    accompagnés tout au long de la formation.</p>
+            </div>
+            <div class="flex justify-center items-center ">
+                <div class="bg-Jaune  z-0">
+                    <img class="z-10 translate-x-5 -translate-y-5" src="/public/DesignS3Innovation.webp" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Section 4 (S4): Enseignants -->
+    <section class="my-20 bg-gradient-to-bl from-[#CB3066] to-[#16BFFD] text-white">
+        <div class="text-center pt-8">
+            <h3>Des enseignants qualifiés</h3>
+            <p>Nous sommes soucieux de la qualité de l’enseignement pour nos étudiants</p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+            <div class="flex flex-col justify-center items-center py-4">
+                <img class="w-60 h-w-60 rounded-full " src="/public/DesignS4Xavier_Senente.webp" alt="">
+                <p class="font-bold py-2">Xavier Senente</p>
+                <p>Enseignant en design graphique</p>
+                <p class="py-2">22 ans d’expertise</p>
+            </div>
+            <div class="flex flex-col justify-center items-center py-4">
+                <img class="w-60 h-w-60 rounded-full " src="/public/DesignS4Alain_Lamboux-Durand.webp" alt="">
+                <p class="font-bold py-2">Alain Lamboux-Durand</p>
+                <p>Chef du département MMI</p>
+                <p class="py-2">19 ans d’expertise</p>
+            </div>
+            <div class="flex flex-col justify-center items-center py-4">
+                <img class="w-60 h-w-60 rounded-full " src="/public/DesignS4Sebastien_Augier.webp" alt="">
+                <p class="font-bold py-2">Sébastien Augier</p>
+                <p>Professeur agrégé en audiovisuel</p>
+                <p class="py-2">18 ans d’expertise</p>
+            </div>
+        </div>
+    </section>
+
+    <!--Section 5 (S5) : Lien-->
+    <section>
+        <div class="flex justify-center items-center">
+            <h3 class="text-center text-xl md:text-2xl text-Blue01 font-semibold z-10">Des projets innovants</h3>
+            <div class="w-16 h-5 bg-Jaune -translate-x-11 translate-y-2 z-0"></div>
+        </div>
+        <div>
+            
+        </div>
+    </section>
+
+    <!--Section 6 (S6) : Témoignages-->
+    <section>
+        <div class="bg-[url('/public/TemoignageLogo.webp')] py-12">
+            <div class="flex justify-center items-center">
+                <h3 class="text-center text-xl md:text-2xl text-Blue01 font-semibold z-10">Témoignages de nos anciens
+                    étudiants</h3>
+                <div class="w-16 h-5 bg-Jaune -translate-x-11 translate-y-2 z-0"></div>
+            </div>
+            <div>
+                <temoignageGauche image="/public/DesignS4Xavier_Senente.webp" nom="John Martin"
+                    avis="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum." />
+                <temoignageDroite image="/public/DesignS4Xavier_Senente.webp" nom="John Martin"
+                    avis="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum." />
+            </div>
+        </div>
+    </section>
+</template>
