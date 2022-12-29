@@ -1,7 +1,7 @@
 <script setup>
-import BtnSuivre from "@/components/btnSuivre.vue";
-import BtnSuivre2 from "@/components/btnSuivre2.vue";
-import sound from "@/components/iconSound.vue"
+import BtnSuivre from "../components/btnSuivre.vue";
+import BtnSuivre2 from "../components/btnSuivre2.vue";
+import sound from "../components/iconSound.vue"
 </script>
 
 <template>
@@ -33,7 +33,7 @@ import sound from "@/components/iconSound.vue"
     <section>
         <div class="grid grid-cols-1 md:grid-cols-2 py-5">
             <div class="px-6">
-                <h2>La vie étudiante</h2>
+                <h2 class=" text-lg md:text-xl text-Blue01 font-semibold py-4">La vie étudiante</h2>
                 <p>Que serait la vie étudiante sans ses associations!
                     Laura Demougeot, étudiante en 2ème année de DUT MMI, vous présente le BDE MMI (Bureau des étudiants)
                     dont elle est la
@@ -58,11 +58,13 @@ import sound from "@/components/iconSound.vue"
                     allowfullscreen></iframe>
             </div>
             <div class="px-6">
-                <h2>Découvrez la WEB TV</h2>
+                <h2 class=" text-lg md:text-xl text-Blue01 font-semibold py-4">Découvrez la WEB TV</h2>
                 <p>Faites connaissance avec une partie de l'équipe de la Web TV de l'IUT qui vous présentera tout au
                     long de cette journée
                     (et samedi prochain) des émissions sur les formations de l'IUT et les projets étudiants!</p>
-                <BtnSuivre2></BtnSuivre2>
+                <div class="mt-4 flex justify-end">
+                    <BtnSuivre2></BtnSuivre2>
+                </div>
             </div>
         </div>
     </section>
