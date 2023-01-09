@@ -116,19 +116,19 @@ import temoignageDroite from '@/components/temoignage_Droite.vue';
         </div>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
             <div class="flex flex-col justify-center items-center py-4">
-                <img class="w-60 h-w-60 rounded-full " src="/public/DevS4Abdallah_Makhoul.webp" alt="">
+                <img class="w-60 h-w-60 rounded-full " src="" alt="">
                 <p class="font-bold py-2">Abdallah Makhoul</p>
                 <p>Enseignant-Chercheur Femto-ST</p>
                 <p class="py-2">14 ans d’expertise</p>
             </div>
             <div class="flex flex-col justify-center items-center py-4">
-                <img class="w-60 h-w-60 rounded-full " src="/public/DevS4Jean-Marie_Fino.webp" alt="">
+                <img class="w-60 h-w-60 rounded-full " src="" alt="">
                 <p class="font-bold py-2">Jean-Marie Fino</p>
                 <p>Enseignant - Maitre de conférence associé</p>
                 <p class="py-2">26 ans d’expertise</p>
             </div>
             <div class="flex flex-col justify-center items-center py-4">
-                <img class="w-60 h-w-60 rounded-full " src="/public/DevS4Hakim_Mabed.webp" alt="">
+                <img class="w-60 h-w-60 rounded-full " src="" alt="">
                 <p class="font-bold py-2">Hakim Mabed</p>
                 <p>Enseignant-Chercheur en hébergement web</p>
                 <p class="py-2">14 ans d’expertise</p>
