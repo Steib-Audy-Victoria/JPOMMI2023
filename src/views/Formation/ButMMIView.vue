@@ -163,43 +163,47 @@
 
         <!--Section 4 (S4): Parcours -->
         <section class="py-20">
+            <div class="flex justify-center items-center pb-12">
+                <h1 class="text-center text-xl md:text-2xl text-Blue01 font-semibold z-10">Découvrez nos pôles MMI</h1>
+                <div class="w-16 h-5 bg-Jaune -translate-x-11 translate-y-2 z-0"></div>
+            </div>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
                 <div class="text-center mx-5 ">
-                    <h4 class="text-base md:text-lg text-Blue01 font-semibold py-4">Développement</h4>
+                    <p class="text-base md:text-xl text-Blue01 font-semibold py-4">Développement</p>
                     <div class="bg-gradient-to-r from-[#D35C70] to-[#EBAA51] text-white px-10 py-8 h-5/6 ">
-                        <h2 class="text-lg md:text-2xl pb-6">Etudier et concevoir</h2>
-                        <p class="text-justify mx-4">Apprenez la base du développement et approfondissez vos
-                            connaissances dans les différents langages de programmation, en
-                            utilisant toutes sortes d’outils numériques pensés pour simplifier l’intégration de sites et
-                            le développement
+                        <h2 class="textxl md:text-2xl pb-6">Etudier et concevoir</h2>
+                        <p class="text-justify mx-4">Apprenez la base du développement et approfondissez vos connaissances dans
+                            les différents langages de programmation, en
+                            utilisant toutes sortes d’outils numériques pensés pour simplifier l’intégration de sites et le
+                            développement
                             d’applications web fonctionnels</p>
                     </div>
                 </div>
                 <div class="text-center mx-5">
-                    <h4 class="text-base md:text-lg text-Blue01 font-semibold py-4">Communication</h4>
+                    <p class="text-base md:text-xl text-Blue01 font-semibold py-4">Communication</p>
                     <div class="bg-gradient-to-tr from-[#155799] to-[#159597] text-white px-10 py-8 h-5/6">
                         <h2 class="text-lg md:text-2xl pb-6">Comprendre et exploiter...</h2>
-                        <p class="text-justify mx-4">Découvrez comment construire la communication autour d’un projet
-                            digital et comment exploiter les données, pour créer un
+                        <p class="text-justify mx-4">Découvrez comment construire la communication autour d’un projet digital et
+                            comment exploiter les données, pour créer un
                             cahier des charges sur mesure pour un client. Apprenez à maitriser les fondamentaux de la
                             communication sur le web,
-                            depuis les dossiers de communication à gêrer les réseaux sociaux d’une entreprise en
-                            fonction de ses besoins.</p>
+                            depuis les dossiers de communication à gêrer les réseaux sociaux d’une entreprise en fonction de ses
+                            besoins.</p>
                     </div>
                 </div>
                 <div class="text-center mx-5">
-                    <h4 class="text-base md:text-lg text-Blue01 font-semibold py-4">Design</h4>
+                    <p class="text-base md:text-xl text-Blue01 font-semibold py-4">Design</p>
                     <div class="bg-gradient-to-bl from-[#CB3066] to-[#16BFFD] text-white px-10 py-8 h-5/6">
                         <h2 class="text-lg md:text-2xl pb-6">S’inspirer et créer</h2>
-                        <p class="text-justify mx-4">Apprenez à utiliser les logiciels de création numérique, de montage
-                            et de prototypage, tout en élargissant votre culture
-                            artistique. Utilisez ces connaissances pour créer des maquettes de sites web, des visuels
-                            pour les réseaux sociaux ou
-                            des supports physiques pour des êvenements. Filmez, tournez et montez des vidéos, reportages
-                            de qualité professionnelle.</p>
+                        <p class="text-justify mx-4">Apprenez à utiliser les logiciels de création numérique, de montage et de
+                            prototypage, tout en élargissant votre culture
+                            artistique. Utilisez ces connaissances pour créer des maquettes de sites web, des visuels pour les
+                            réseaux sociaux ou
+                            des supports physiques pour des êvenements. Filmez, tournez et montez des vidéos, reportages de
+                            qualité professionnelle.</p>
                     </div>
                 </div>
-
+        
             </div>
         </section>
     </div>
