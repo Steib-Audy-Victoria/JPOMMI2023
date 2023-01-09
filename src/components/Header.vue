@@ -7,15 +7,17 @@ import LogoMMI from './LogoMMI.vue';
 
 </script>
 <template>
-    <header class="py-2 bg-Jaune font-Montserrat font-semibold">
+    <header class="py-2 bg-Grey03 font-Montserrat font-semibold">
         <!--Visiteur-->
-            <!--v-else-->
-        <div> 
+        <!--v-else-->
+        <div>
             <!--Mobile-->
             <div class="lg:hidden mr-6">
                 <nav class="flex justify-between">
                     <div class="mx-4">
-                        <RouterLink to="/"><LogoMMI /></RouterLink>
+                        <RouterLink to="/">
+                            <LogoMMI />
+                        </RouterLink>
                     </div>
                     <Menu>
                         <MenuButton
@@ -82,7 +84,7 @@ import LogoMMI from './LogoMMI.vue';
                                     CONTACT</RouterLink>
                                 </MenuItem>
                             </div>
-                            <hr class="border border-Jaune mx-20"/>
+                            <hr class="border border-Jaune mx-20" />
                             <div class="py-1">
                                 <MenuItem v-slot="{ active }">
                                 <RouterLink to="/Connexion"
@@ -112,10 +114,12 @@ import LogoMMI from './LogoMMI.vue';
                                     <ChevronDownIcon class="-mr-1 ml-2 h-5 w-5" aria-hidden="true" />
                                 </MenuButton>
                             </div>
-                
+
                             <transition enter-active-class="transition ease-out duration-100"
-                                enter-from-class="transform opacity-0 scale-95" enter-to-class="transform opacity-100 scale-100"
-                                leave-active-class="transition ease-in duration-75" leave-from-class="transform opacity-100 scale-100"
+                                enter-from-class="transform opacity-0 scale-95"
+                                enter-to-class="transform opacity-100 scale-100"
+                                leave-active-class="transition ease-in duration-75"
+                                leave-from-class="transform opacity-100 scale-100"
                                 leave-to-class="transform opacity-0 scale-95">
                                 <MenuItems style="z-index:999;"
                                     class="absolute right-0 z-10 mt-2 w-56 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
@@ -150,7 +154,7 @@ import LogoMMI from './LogoMMI.vue';
                                             :class="[active ? 'bg-Blue02 text-white' : 'text-black', 'block px-4 py-2 text-sm']">
                                             International</RouterLink>
                                         </MenuItem>
-                
+
                                     </div>
                                 </MenuItems>
                             </transition>
@@ -163,7 +167,7 @@ import LogoMMI from './LogoMMI.vue';
             </div>
         </div>
         <!--Si l'utilisateur est connecter-->
-            <!--v-if="user"-->
+        <!--v-if="user"-->
         <div class="hidden">
             <!--Mobile-->
             <div class="lg:hidden mr-6">
@@ -180,22 +184,22 @@ import LogoMMI from './LogoMMI.vue';
                         </MenuButton>
                         <MenuItems style="z-index:999;"
                             class="absolute right-0 z-10 mt-16 w-full text-center  origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
-                                <MenuItem v-slot="{ active }">
-                                <RouterLink to="/"
-                                    :class="[active ? 'bg-Blue02 text-white' : 'text-black', 'block px-4 py-2 text-lg']">
-                                    ACCUEIL
-                                </RouterLink>
-                                </MenuItem>
-                                <MenuItem v-slot="{ active }">
-                                <RouterLink to="#"
-                                    :class="[active ? 'bg-Blue02 text-white' : 'text-black', 'block px-4 py-2 text-lg']">
-                                    PLANNING</RouterLink>
-                                </MenuItem>
-                                <MenuItem v-slot="{ active }">
-                                <RouterLink to="#"
-                                    :class="[active ? 'bg-Blue02 text-white' : 'text-black', 'block px-4 py-2 text-lg']">
-                                    MON COMPTE</RouterLink>
-                                </MenuItem>
+                            <MenuItem v-slot="{ active }">
+                            <RouterLink to="/"
+                                :class="[active ? 'bg-Blue02 text-white' : 'text-black', 'block px-4 py-2 text-lg']">
+                                ACCUEIL
+                            </RouterLink>
+                            </MenuItem>
+                            <MenuItem v-slot="{ active }">
+                            <RouterLink to="#"
+                                :class="[active ? 'bg-Blue02 text-white' : 'text-black', 'block px-4 py-2 text-lg']">
+                                PLANNING</RouterLink>
+                            </MenuItem>
+                            <MenuItem v-slot="{ active }">
+                            <RouterLink to="#"
+                                :class="[active ? 'bg-Blue02 text-white' : 'text-black', 'block px-4 py-2 text-lg']">
+                                MON COMPTE</RouterLink>
+                            </MenuItem>
                         </MenuItems>
                     </Menu>
                 </nav>
