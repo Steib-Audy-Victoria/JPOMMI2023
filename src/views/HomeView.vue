@@ -9,7 +9,7 @@ import BtnEvenement from '@/components/btnEvenement.vue';
 <template>
   <div class="bg-[url('/public/HomeLine.svg')]">
     <!--Section 1 (S1) : Présentation-->
-    <section class="bg-[url('/public/HomeS1iut.svg')] bg-no-repeat ">
+    <section class="bg-[url('/public/HomeS1iut.svg')] bg-no-repeat bg-cover">
       <div class="flex flex-col justify-center items-center py-60">
         <LogoMMIHome class=" mb-20 mt-6" />
         <h1 class="text-center text-white text-2xl md:text-3xl font-Montserrat font-semibold my-4">JOURNÉES PORTES
@@ -34,7 +34,7 @@ import BtnEvenement from '@/components/btnEvenement.vue';
 
           <RouterLink to="/ButMMI">
             <div
-              class=" bg-[url('/public/HomeS2ButMMI.webp')] bg-no-repeat h-96 flex justify-center items-center mb-4 md:mb-0">
+              class=" bg-[url('/public/HomeS2ButMMI.webp')] bg-no-repeat bg-cover h-96 flex justify-center items-center mb-4 md:mb-0">
               <p class="text-white text-center text-xl md:text-2xl">BUT MMI</p>
             </div>
           </RouterLink>
@@ -42,7 +42,7 @@ import BtnEvenement from '@/components/btnEvenement.vue';
 
           <RouterLink to="#">
             <div
-              class="bg-[url('/public/HomeS2FAQ.webp')] bg-no-repeat h-96 flex justify-center items-center mb-4 md:mb-0">
+              class="bg-[url('/public/HomeS2FAQ.webp')] bg-no-repeat bg-cover h-96 flex justify-center items-center mb-4 md:mb-0">
               <p class="text-white text-center text-xl md:text-2xl">FAQ</p>
             </div>
           </RouterLink>
@@ -50,13 +50,13 @@ import BtnEvenement from '@/components/btnEvenement.vue';
         <div>
           <RouterLink to="/Alternance">
             <div
-              class="bg-[url('/public/HomeS2Alternance.webp')] bg-no-repeat h-96 flex justify-center items-center mb-4 md:mb-0">
+              class="bg-[url('/public/HomeS2Alternance.webp')] bg-no-repeat bg-cover h-96 flex justify-center items-center mb-4 md:mb-0">
               <p class="text-white text-center text-xl md:text-2xl">ALTERNANCE</p>
             </div>
           </RouterLink>
           <RouterLink to="/International">
             <div
-              class="bg-[url('/public/HomeS2internationnal.webp')] bg-no-repeat h-96 flex justify-center items-center mb-4 md:mb-0">
+              class="bg-[url('/public/HomeS2internationnal.webp')] bg-no-repeat bg-cover h-96 flex justify-center items-center mb-4 md:mb-0">
               <p class="text-white text-center text-xl md:text-2xl">INTERNATIONAL</p>
             </div>
           </RouterLink>
