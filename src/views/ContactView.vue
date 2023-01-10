@@ -87,7 +87,7 @@ onMounted(async () => {
         <div>
             <div class="hidden lg:block">
                 <div class="absolute">
-                    <img src="/public/ContactS1.webp" alt="">
+                    <img class="bg-cover" src="/public/ContactS1.webp" alt="">
                 </div>
             </div>
             <div class="relative">
