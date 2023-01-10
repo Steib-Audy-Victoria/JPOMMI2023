@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-black/50 rounded-xl w-max flex justify-center items-center p-2 gap-4">
+    <div class="bg-black/50 rounded-xl w-max flex justify-center items-center p-2 gap-4 m-2">
         <div>
             <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg"
             xmlns:xlink="http://www.w3.org/1999/xlink">

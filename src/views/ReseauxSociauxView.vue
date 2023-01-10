@@ -28,7 +28,7 @@ import sound from "../components/iconSound.vue"
     <section class="bg-Blue02">
         <h2 class="px-10 py-4 font-semibold text-white">Actualités du département</h2>
         <BtnSuivre></BtnSuivre>
-        img x3
+        
     </section>
     <section>
         <div class="grid grid-cols-1 md:grid-cols-2 py-5">
