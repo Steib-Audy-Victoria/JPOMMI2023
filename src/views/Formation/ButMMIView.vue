@@ -168,7 +168,8 @@
                 <div class="w-16 h-5 bg-Jaune -translate-x-11 translate-y-2 z-0"></div>
             </div>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-                <div class="text-center mx-5 ">
+
+                <RouterLink to="/Dev" class="text-center mx-5 ">
                     <p class="text-base md:text-xl text-Blue01 font-semibold py-4">Développement</p>
                     <div class="bg-gradient-to-r from-[#D35C70] to-[#EBAA51] text-white px-10 py-8 h-5/6 ">
                         <h2 class="textxl md:text-2xl pb-6">Etudier et concevoir</h2>
@@ -178,8 +179,8 @@
                             développement
                             d’applications web fonctionnels</p>
                     </div>
-                </div>
-                <div class="text-center mx-5">
+                </RouterLink>
+                <RouterLink to="/Com" class="text-center mx-5">
                     <p class="text-base md:text-xl text-Blue01 font-semibold py-4">Communication</p>
                     <div class="bg-gradient-to-tr from-[#155799] to-[#159597] text-white px-10 py-8 h-5/6">
                         <h2 class="text-lg md:text-2xl pb-6">Comprendre et exploiter...</h2>
@@ -190,8 +191,8 @@
                             depuis les dossiers de communication à gêrer les réseaux sociaux d’une entreprise en fonction de ses
                             besoins.</p>
                     </div>
-                </div>
-                <div class="text-center mx-5">
+                </RouterLink>
+                <RouterLink to="/Design" class="text-center mx-5">
                     <p class="text-base md:text-xl text-Blue01 font-semibold py-4">Design</p>
                     <div class="bg-gradient-to-bl from-[#CB3066] to-[#16BFFD] text-white px-10 py-8 h-5/6">
                         <h2 class="text-lg md:text-2xl pb-6">S’inspirer et créer</h2>
@@ -202,7 +203,7 @@
                             des supports physiques pour des êvenements. Filmez, tournez et montez des vidéos, reportages de
                             qualité professionnelle.</p>
                     </div>
-                </div>
+                </RouterLink>
         
             </div>
         </section>
