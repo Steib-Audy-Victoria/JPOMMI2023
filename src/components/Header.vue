@@ -34,11 +34,6 @@ import LogoMMI from './LogoMMI.vue';
                                 </RouterLink>
                                 </MenuItem>
                                 <MenuItem v-slot="{ active }">
-                                <RouterLink to="/visiteVirtuelle"
-                                    :class="[active ? 'bg-Blue02 text-white' : 'text-black', 'block px-4 py-2 text-lg']">
-                                    VISITE VIRTUELLE</RouterLink>
-                                </MenuItem>
-                                <MenuItem v-slot="{ active }">
                                 <RouterLink to="ButMMI"
                                     :class="[active ? 'bg-Blue02 text-white' : 'text-black', 'block px-4 py-2 text-lg']">
                                     BUT MMI</RouterLink>
@@ -105,7 +100,6 @@ import LogoMMI from './LogoMMI.vue';
                         </RouterLink>
                     </div>
                     <div class="flex gap-6 items-center mx-2 mr-4">
-                        <RouterLink to="/visiteVirtuelle">VISITE VIRTUELLE</RouterLink>
                         <Menu as="div" class="relative inline-block text-left">
                             <div>
                                 <MenuButton

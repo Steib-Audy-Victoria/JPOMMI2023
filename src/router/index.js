@@ -1,6 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
-import VisiteVirtuelleView from '../views/VisiteVirtuelleView.vue'
 
 
 import ButMMIView from '../views/Formation/ButMMIView.vue'
@@ -37,7 +36,6 @@ const router = createRouter({
       // which is lazy-loaded when the route is visited.
       component: () => import('../views/AboutView.vue')
     },
-    { path: '/visiteVirtuelle', name: 'visiteVirtuelle', component: VisiteVirtuelleView },
 
     { path: '/ButMMI', name: 'ButMMI', component: ButMMIView },
     { path: '/Design', name: 'ParcoursDesign', component: ParcoursDesignView },
