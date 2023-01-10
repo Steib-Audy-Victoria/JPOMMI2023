@@ -174,7 +174,7 @@ import BtnEvenement from '@/components/btnEvenement.vue';
     </section>
 
     <!--Section 4 (S4) : Connexion prof / étudiants-->
-    <section class="bg-[url('/public/HomeS4Connexion.webp')] flex flex-col justify-center items-center pb-36">
+    <section class="bg-[url('/public/HomeS4Connexion.webp')] bg-no-repeat bg-cover flex flex-col justify-center items-center pb-36">
       <LogoMMIHome class=" my-28" />
       <h2 class="text-center text-xl md:text-2xl  font-semibold text-white my-6">VOUS ÊTES PROFESSEUR / ÉTUDIANT DU
         DÉPARTEMENT ?</h2>
