@@ -110,13 +110,13 @@ import temoignageDroite from '@/components/temoignage_Droite.vue';
                 <p class="py-2">25 ans d’expertise</p>
             </div>
             <div class="flex flex-col justify-center items-center py-4">
-                <img class="w-60 h-w-60 rounded-full " src="/public/ComS4Jean-Claude_Domenget.png" alt="">
+                <img class="w-60 h-w-60 rounded-full " src="/public/ComS4Jean-Claude_Domenget.webp" alt="">
                 <p class="font-bold py-2">Jean-Claude Domenget</p>
                 <p>Enseignant en communication numérique</p>
                 <p class="py-2">11 ans d’expertise</p>
             </div>
             <div class="flex flex-col justify-center items-center py-4">
-                <img class="w-60 h-w-60 rounded-full " src="/public/ComS4David_Malsot.png" alt="">
+                <img class="w-60 h-w-60 rounded-full " src="/public/ComS4David_Malsot.webp" alt="">
                 <p class="font-bold py-2">David Malsot</p>
                 <p>Enseignant en communication</p>
                 <p class="py-2">14 ans d’expertise</p>
@@ -144,10 +144,9 @@ import temoignageDroite from '@/components/temoignage_Droite.vue';
                 <div class="w-16 h-5 bg-Jaune -translate-x-11 translate-y-2 z-0"></div>
             </div>
             <div>
-                <temoignageGauche image="/public/DesignS4Xavier_Senente.webp" nom="John Martin"
-                    avis="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum." />
-                <temoignageDroite image="/public/DesignS4Xavier_Senente.webp" nom="John Martin"
-                    avis="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum." />
+                <temoignageGauche image="/public/ComS6Laura_Brager.webp" nom="Laura Brager"
+                    avis="MMI, ça a été pour moi, une de mes meilleures expériences et ça a été un vrai plus dans mon recrutement puisque MMI est reconnu comme une formation de qualité. 
+                                        Aujourd’hui, je suis chargée de communication pour un groupement d’employeurs à Troyes. Par rapport à mes missions au sein de l’entreprise, je suis très polyvalente. Je me charge à la fois de l’infographie, du community management et du webmastering. Par exemple, je peux être amené à faire des affiches, l’animation des réseaux sociaux, intégrer un site sur Wordpress et parfois, j’encadre même des événements." />
             </div>
         </div>
     </section>

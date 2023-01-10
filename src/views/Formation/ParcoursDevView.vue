@@ -116,19 +116,19 @@ import temoignageDroite from '@/components/temoignage_Droite.vue';
         </div>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
             <div class="flex flex-col justify-center items-center py-4">
-                <img class="w-60 h-w-60 rounded-full " src="" alt="">
+                <img class="w-60 h-w-60 rounded-full " src="/public/DevS6Abdallah_Makhoul.webp" alt="">
                 <p class="font-bold py-2">Abdallah Makhoul</p>
                 <p>Enseignant-Chercheur Femto-ST</p>
                 <p class="py-2">14 ans d’expertise</p>
             </div>
             <div class="flex flex-col justify-center items-center py-4">
-                <img class="w-60 h-w-60 rounded-full " src="" alt="">
+                <img class="w-60 h-w-60 rounded-full " src="/public/DevS6Jean-Marie_Fino.webp" alt="">
                 <p class="font-bold py-2">Jean-Marie Fino</p>
                 <p>Enseignant - Maitre de conférence associé</p>
                 <p class="py-2">26 ans d’expertise</p>
             </div>
             <div class="flex flex-col justify-center items-center py-4">
-                <img class="w-60 h-w-60 rounded-full " src="" alt="">
+                <img class="w-60 h-w-60 rounded-full " src="/public/DevS6Hakim_Mabed.webp" alt="">
                 <p class="font-bold py-2">Hakim Mabed</p>
                 <p>Enseignant-Chercheur en hébergement web</p>
                 <p class="py-2">14 ans d’expertise</p>
@@ -156,10 +156,12 @@ import temoignageDroite from '@/components/temoignage_Droite.vue';
                 <div class="w-16 h-5 bg-Jaune -translate-x-11 translate-y-2 z-0"></div>
             </div>
             <div>
-                <temoignageGauche image="/public/DesignS4Xavier_Senente.webp" nom="John Martin"
-                    avis="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum." />
-                <temoignageDroite image="/public/DesignS4Xavier_Senente.webp" nom="John Martin"
-                    avis="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum." />
+                <temoignageGauche image="/public/DevS6Fabien_Casperot.webp" nom="Fabien Casperot"
+                    avis="Avant MMI, je faisais des programmes Python et des mini-jeux, et je me suis vite senti dans mon élément, c’est ce qui m’a poussé à venir en MMI suite à l’obtention de mon baccalauréat.
+                                    MMI ont été mes meilleures années d’études. Les cours et les projets étaient assez variés, et le programme est très complet. 
+                                    Actuellement, je suis encore étudiant en Master 2 Produits et Services Multimédia (PSM) à Montbéliard." />
+                <temoignageDroite image="/public/DevS6Benjamin_Truchi.webp" nom="Benjamin Truchi"
+                    avis="Mes années en MMI furent de loin mes meilleures d’années d’études. On y voit énormément de domaines. Puis il y a des projets pour mettre en pratique ce que l’on apprend. L’équipe pédagogique est très présente pour nous aider dès qu’on a besoin dans nos projets. Je suis actuellement étudiant en Master 2 Produits et Services Multimédia (PSM) à Montbéliard. Au cours de mon cursus, j’ai pu effectué plusieurs stages, notamment en tant que développeur web ou encore développeur fullstack." />
             </div>
         </div>
     </section>

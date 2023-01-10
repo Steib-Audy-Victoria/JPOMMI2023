@@ -1,5 +1,5 @@
 <script setup>
-import LogoMMIAncien from '@/components/LogoMMIAncien.vue';
+import LogoMMIHome from '@/components/LogoMMIHome.vue';
 import btnVisite from '@/components/btnVisite.vue';
 import btnConnexion from '@/components/btnConnexion.vue';
 import BtnEvenement from '@/components/btnEvenement.vue';
@@ -11,7 +11,7 @@ import BtnEvenement from '@/components/btnEvenement.vue';
     <!--Section 1 (S1) : Présentation-->
     <section class="bg-[url('/public/HomeS1iut.svg')] bg-no-repeat ">
       <div class="flex flex-col justify-center items-center py-60">
-        <LogoMMIAncien class="w-36 mb-6" />
+        <LogoMMIHome class=" mb-20 mt-6" />
         <h1 class="text-center text-white text-2xl md:text-3xl font-Montserrat font-semibold my-4">JOURNÉES PORTES
           OUVERTES
           <br>
@@ -175,7 +175,7 @@ import BtnEvenement from '@/components/btnEvenement.vue';
 
     <!--Section 4 (S4) : Connexion prof / étudiants-->
     <section class="bg-[url('/public/HomeS4Connexion.webp')] flex flex-col justify-center items-center pb-36">
-      <img class="my-20" src="/public/HomeS4logoMMI.svg" alt="Logo du département MMI">
+      <LogoMMIHome class=" my-28" />
       <h2 class="text-center text-xl md:text-2xl  font-semibold text-white my-6">VOUS ÊTES PROFESSEUR / ÉTUDIANT DU
         DÉPARTEMENT ?</h2>
       <div class="flex flex-col lg:flex-row justify-around items-center gap-12 my-12  m-4 lg:m-0 lg:my-12">
