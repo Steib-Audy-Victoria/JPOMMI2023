@@ -44,8 +44,8 @@ onMounted(async () => {
 
     // Création d'un icone
     let myIcon = Leaflet.icon({
-        iconUrl: '/public/marker-icon-3x.png', // Image de l'icône
-        shadowUrl: '/public/marker-shadow.png', // Image de l'ombre0
+        iconUrl: 'public/marker-icon-3x.png', // Image de l'icône
+        shadowUrl: 'public/marker-shadow.png', // Image de l'ombre0
         iconSize: [25, 41], // taille de l'icône
         shadowSize: [25, 41], // taille de l'ombre
         iconAnchor: [0, 0], // point de position de l'icône
@@ -79,6 +79,7 @@ onMounted(async () => {
 </script>
 
 <template>
+    <!--Section 1 (S1) : Contact-->
     <section>
         <div class="flex justify-center items-center py-12">
             <h1 class="text-center text-xl md:text-2xl text-Blue01 font-semibold z-10">CONTACT</h1>
@@ -140,6 +141,7 @@ onMounted(async () => {
         </div>
     </section>
 
+    <!--Section 2 (S2) : Map (OSM)-->
     <section>
         <div class="flex justify-center items-center py-12">
             <h1 class="text-center text-xl md:text-2xl text-Blue01 font-semibold z-10">OÙ NOUS RETROUVER ?</h1>
@@ -153,6 +155,7 @@ onMounted(async () => {
         </div>
     </section>
 
+    <!--Section 3 (S3) : Newsletter-->
     <section>
         <div class="flex justify-center items-center py-12">
             <h1 class="text-center text-xl md:text-2xl text-Blue01 font-semibold z-10">NEWSLETTER</h1>
