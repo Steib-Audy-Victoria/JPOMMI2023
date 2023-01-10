@@ -1,6 +1,5 @@
 <script setup>
 import LogoMMIHome from '@/components/LogoMMIHome.vue';
-import btnVisite from '@/components/btnVisite.vue';
 import btnConnexion from '@/components/btnConnexion.vue';
 import BtnEvenement from '@/components/btnEvenement.vue';
 
@@ -10,7 +9,7 @@ import BtnEvenement from '@/components/btnEvenement.vue';
   <div class="bg-[url('/public/HomeLine.svg')]">
     <!--Section 1 (S1) : Présentation-->
     <section class="bg-[url('/public/HomeS1iut.svg')] bg-no-repeat bg-cover">
-      <div class="flex flex-col justify-center items-center py-60">
+      <div class="flex flex-col justify-center items-center py-80 xl:py-96">
         <LogoMMIHome class=" mb-20 mt-6" />
         <h1 class="text-center text-white text-2xl md:text-3xl font-Montserrat font-semibold my-4">JOURNÉES PORTES
           OUVERTES
@@ -19,7 +18,7 @@ import BtnEvenement from '@/components/btnEvenement.vue';
           <br>
           DE 9H à 17H
         </h1>
-        <btnVisite class="my-4" />
+        
       </div>
     </section>
 
