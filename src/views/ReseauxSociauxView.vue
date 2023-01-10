@@ -43,7 +43,7 @@ import sound from "../components/iconSound.vue"
                     Montbéliard) dont il est le président.</p>
                 <p>Une émission présentée par Elisa Page, étudiante, elle aussi en 2ème année de DUT MMI!</p>
             </div>
-            <div class="flex">
+            <div class="flex m-2">
                 <iframe width="730" height="410" src="https://www.youtube.com/embed/wgD4pGlqWKg"
                     title="Associations étudiantes: le BDE MMI et la MéMO" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -51,7 +51,7 @@ import sound from "../components/iconSound.vue"
             </div>
         </div>
         <div class="grid grid-cols-1 md:grid-cols-2 py-5">
-            <div class="flex">
+            <div class="flex m-2">
                 <iframe width="730" height="410" src="https://www.youtube.com/embed/rmMrGLSVIAE"
                     title="Web TV 2021-Le making of" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
