@@ -87,7 +87,7 @@ onMounted(async () => {
         <div>
             <div class="hidden lg:block">
                 <div class="absolute">
-                    <img class="bg-cover" src="/public/ContactS1.webp" alt="">
+                    <img class="object-cover" src="/public/ContactS1.webp" alt="">
                 </div>
             </div>
             <div class="relative">
@@ -131,7 +131,7 @@ onMounted(async () => {
                                 <youtube />
                             </div>
                             <div class="flex justify-center items-center">
-                                <LogoMMI2 class="w-14"></LogoMMI2>
+                                <LogoMMI2 class="w-40"></LogoMMI2>
                             </div>
                         </div>
                     </div>
