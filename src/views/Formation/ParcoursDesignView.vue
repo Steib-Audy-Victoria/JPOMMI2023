@@ -156,10 +156,10 @@ import temoignageDroite from '@/components/temoignage_Droite.vue';
                 <div class="w-16 h-5 bg-Jaune -translate-x-11 translate-y-2 z-0"></div>
             </div>
             <div>
-                <temoignageGauche image="./public/DesignS6Julien_Paquier.webp" nom="Julien Paquier"
+                <temoignageGauche image="../public/DesignS6Julien_Paquier.webp" nom="Julien Paquier"
                     avis="MMI m’a apporté de solides bases dans le design, la communication et le développement web. Désormais, grâce à MMI, je suis beaucoup plus à l’aise de passer à l’oral et de présenter mes travaux. 
                                     Après MMI, j’ai rejoint l’HETIC Paris en parcours grande école. Je suis actuellement en stage en tant que digital producer à Betc fullsix. Mon rôle au sein de cette entreprise est de faire des réunions avec de grands clients comme Citroën, puis de comprendre leur demande et leurs besoins. Puis de faire un brief pour des ressources créatives. Je gère de A à Z le projet jusqu’à la livraison finale." />
-                <temoignageDroite image="./public/DesignS6Alois_Bolou.webp" nom="Aloïs Bolou"
+                <temoignageDroite image="../public/DesignS6Alois_Bolou.webp" nom="Aloïs Bolou"
                     avis="MMI a été une parfaite porte d’entrée dans le monde des créatifs. C’est une formation qui permet de toucher à énormément de compétences différentes, autant techniques que artistiques. La quantité de projets réalisées nous donne un portfolio assez complet, et des bonnes aptitudes de travail, autant en groupe qu’individuellement pour poursuivre dans ce secteur. Durant ce cursus, le design et la communication m’ont particulièrement plu. J’ai pu réalisé un stage dans une entreprise de production audiovisuelle." />
             </div>
         </div>
