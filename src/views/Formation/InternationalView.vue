@@ -71,7 +71,7 @@ import temoignageDroite from '@/components/temoignage_Droite.vue';
 
     </section>
 
-    <!--Section 4 (S4) : Témoignages-->
+    <!-- Section 4 (S4) : Témoignages
     <section>
         <div class="bg-[url('/public/TemoignageLogo.webp')] py-12">
             <div class="flex justify-center items-center">
@@ -86,7 +86,7 @@ import temoignageDroite from '@/components/temoignage_Droite.vue';
                     avis="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum." />
             </div>
         </div>
-    </section>
+    </section> -->
 
     <!--Section 5 (S5): Festival OFFF à Barcelone -->
     <section class="mt-12">
@@ -109,8 +109,17 @@ import temoignageDroite from '@/components/temoignage_Droite.vue';
                 <img src="/public/InternationalS5OFF.webp" alt="">
             </div>
         </div>
-        <div>
-            carrousel
+        <div class="carousel rounded-box m-6">
+            <div class="carousel-item">
+                <img class="w-screen" src="/public/InternationalS5img1.webp" alt="">
+            </div>
+            <div class="carousel-item">
+                <img class="w-screen" src="/public/InternationalS5img2.webp" alt="">
+            </div>
+            <div class="carousel-item">
+                <img class="w-screen" src="/public/InternationalS5img3.webp" alt="">
+            </div>
+        
         </div>
 
     </section>
