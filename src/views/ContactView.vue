@@ -44,8 +44,8 @@ onMounted(async () => {
 
     // Création d'un icone
     let myIcon = Leaflet.icon({
-        iconUrl: 'public/marker-icon-3x.png', // Image de l'icône
-        shadowUrl: 'public/marker-shadow.png', // Image de l'ombre0
+        iconUrl: '/public/marker-icon-3x.png', // Image de l'icône
+        shadowUrl: '/public/marker-shadow.png', // Image de l'ombre0
         iconSize: [25, 41], // taille de l'icône
         shadowSize: [25, 41], // taille de l'ombre
         iconAnchor: [0, 0], // point de position de l'icône
