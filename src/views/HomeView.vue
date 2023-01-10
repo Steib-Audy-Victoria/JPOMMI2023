@@ -81,7 +81,7 @@ import BtnEvenement from '@/components/btnEvenement.vue';
         <p>DÉFI 24H</p>
       </div>
     </div> -->
-      <div class="grid grid-cols-2">
+      <div class="grid grid-cols-1 lg:grid-cols-2">
         <!--Posts insta MMI 25 ans -->
         <div class="flex justify-center">
           <div>
