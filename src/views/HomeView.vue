@@ -39,7 +39,7 @@ import BtnEvenement from '@/components/btnEvenement.vue';
           </RouterLink>
 
 
-          <RouterLink to="#">
+          <RouterLink to="/FAQ">
             <div
               class="bg-[url('/public/HomeS2FAQ.webp')] bg-no-repeat bg-cover h-96 flex justify-center items-center mb-4 md:mb-0">
               <p class="text-white text-center text-xl md:text-2xl">FAQ</p>
