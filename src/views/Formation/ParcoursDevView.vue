@@ -1,7 +1,8 @@
 <script setup>
 import temoignageGauche from '@/components/temoignage_Gauche.vue';
 import temoignageDroite from '@/components/temoignage_Droite.vue';
-
+import imgFabienCasperot from '/public/DevS6Fabien_Casperot.webp';
+import imgBenjaminTruchi from '/public/DevS6Benjamin_Truchi.webp';
 </script>
 
 <template>
@@ -156,11 +157,11 @@ import temoignageDroite from '@/components/temoignage_Droite.vue';
                 <div class="w-16 h-5 bg-Jaune -translate-x-11 translate-y-2 z-0"></div>
             </div>
             <div>
-                <temoignageGauche image="/public/DevS6Fabien_Casperot.webp" nom="Fabien Casperot"
+                <temoignageGauche :image="imgFabienCasperot" nom="Fabien Casperot"
                     avis="Avant MMI, je faisais des programmes Python et des mini-jeux, et je me suis vite senti dans mon élément, c’est ce qui m’a poussé à venir en MMI suite à l’obtention de mon baccalauréat.
                                     MMI ont été mes meilleures années d’études. Les cours et les projets étaient assez variés, et le programme est très complet. 
                                     Actuellement, je suis encore étudiant en Master 2 Produits et Services Multimédia (PSM) à Montbéliard." />
-                <temoignageDroite image="/public/DevS6Benjamin_Truchi.webp" nom="Benjamin Truchi"
+                <temoignageDroite :image="imgBenjaminTruchi" nom="Benjamin Truchi"
                     avis="Mes années en MMI furent de loin mes meilleures d’années d’études. On y voit énormément de domaines. Puis il y a des projets pour mettre en pratique ce que l’on apprend. L’équipe pédagogique est très présente pour nous aider dès qu’on a besoin dans nos projets. Je suis actuellement étudiant en Master 2 Produits et Services Multimédia (PSM) à Montbéliard. Au cours de mon cursus, j’ai pu effectué plusieurs stages, notamment en tant que développeur web ou encore développeur fullstack." />
             </div>
         </div>

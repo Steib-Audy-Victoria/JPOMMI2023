@@ -6,7 +6,8 @@ import insta from '@/components/insta.vue';
 import Marker from '@/components/marker.vue';
 import Tel from '@/components/tel.vue';
 import Mail from '@/components/mail.vue';
-
+import iconUrl from '/public/marker-icon-3x.png';
+import shadowUrl from '/public/marker-shadow.png';
 
 
 // Import éléments de vue
@@ -44,8 +45,8 @@ onMounted(async () => {
 
     // Création d'un icone
     let myIcon = Leaflet.icon({
-        iconUrl: 'public/marker-icon-3x.png', // Image de l'icône
-        shadowUrl: 'public/marker-shadow.png', // Image de l'ombre0
+        iconUrl, // Image de l'icône
+        shadowUrl, // Image de l'ombre0
         iconSize: [25, 41], // taille de l'icône
         shadowSize: [25, 41], // taille de l'ombre
         iconAnchor: [0, 0], // point de position de l'icône

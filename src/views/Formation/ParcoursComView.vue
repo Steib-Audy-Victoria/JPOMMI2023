@@ -1,6 +1,7 @@
 <script setup>
 import temoignageGauche from '@/components/temoignage_Gauche.vue';
 import temoignageDroite from '@/components/temoignage_Droite.vue';
+import imgLauraBrager from '/public/ComS6Laura_Brager.webp'
 
 </script>
 
@@ -144,7 +145,7 @@ import temoignageDroite from '@/components/temoignage_Droite.vue';
                 <div class="w-16 h-5 bg-Jaune -translate-x-11 translate-y-2 z-0"></div>
             </div>
             <div>
-                <temoignageGauche image="/public/ComS6Laura_Brager.webp" nom="Laura Brager"
+                <temoignageGauche :image="imgLauraBrager" nom="Laura Brager"
                     avis="MMI, ça a été pour moi, une de mes meilleures expériences et ça a été un vrai plus dans mon recrutement puisque MMI est reconnu comme une formation de qualité. 
                                         Aujourd’hui, je suis chargée de communication pour un groupement d’employeurs à Troyes. Par rapport à mes missions au sein de l’entreprise, je suis très polyvalente. Je me charge à la fois de l’infographie, du community management et du webmastering. Par exemple, je peux être amené à faire des affiches, l’animation des réseaux sociaux, intégrer un site sur Wordpress et parfois, j’encadre même des événements." />
             </div>
