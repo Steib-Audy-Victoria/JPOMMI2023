@@ -11,10 +11,10 @@ import insta from './insta.vue';
             <div class="flex ml-4">
                 <hr class="border h-auto my-8 mx-4 border-Jaune" />
                 <div class="flex flex-col gap-5 justify-center ">
-                    <RouterLink to="#">BUT MMI</RouterLink>
-                    <RouterLink to="#">CONTACT</RouterLink>
-                    <RouterLink to="#">MENTIONS LÉGALES</RouterLink>
-                    <RouterLink to="#">PLAN DU SITE</RouterLink>
+                    <RouterLink to="/ButMMI">BUT MMI</RouterLink>
+                    <RouterLink to="/Contact">CONTACT</RouterLink>
+                    <RouterLink to="/ML">MENTIONS LÉGALES</RouterLink>
+                    <RouterLink to="/Plan">PLAN DU SITE</RouterLink>
                 </div>
             </div>
             <div>
@@ -37,10 +37,10 @@ import insta from './insta.vue';
                 <div class="flex ml-7">
                     <hr class="border h-auto  mx-4 border-Jaune" />
                     <div class="flex flex-col gap-5 justify-center ">
-                        <RouterLink to="#">BUT MMI</RouterLink>
-                        <RouterLink to="#">CONTACT</RouterLink>
-                        <RouterLink to="#">MENTIONS LÉGALES</RouterLink>
-                        <RouterLink to="#">PLAN DU SITE</RouterLink>
+                        <RouterLink to="/ButMMI">BUT MMI</RouterLink>
+                        <RouterLink to="/Contact">CONTACT</RouterLink>
+                        <RouterLink to="/ML">MENTIONS LÉGALES</RouterLink>
+                        <RouterLink to="/Plan">PLAN DU SITE</RouterLink>
                     </div>
                 </div>
                 <div class="flex justify-evenly my-4">
