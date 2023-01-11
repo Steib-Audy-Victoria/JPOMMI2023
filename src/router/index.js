@@ -60,11 +60,7 @@ const router = createRouter({
     { path: '/Plan', name: 'Plan', component: PlanView },
 
 
-    {
-      path: '/:pathMatch(.*)*',
-      name: 'page404',
-      component: Page404
-    },
+    { path: '/:pathMatch(.*)', component: NotFoundComponent },
   ]
 })
 
