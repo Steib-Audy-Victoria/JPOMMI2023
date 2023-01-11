@@ -1,7 +1,3 @@
-<script>
-
-</script>
-
 <template>
     <div class="bg-[url('/public/HomeLine.svg')]">
         <div class="flex justify-center items-center py-12">
