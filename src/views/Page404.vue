@@ -14,7 +14,7 @@
 
 <style>
 .img {
-    background-image: url('/public/Photo_IUT.jpg');
+    background-image: url('/public/Photo_IUT.webp');
     background-size: cover;
     background-repeat: no-repeat;
 }
