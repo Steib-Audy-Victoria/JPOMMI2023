@@ -34,7 +34,7 @@ import LogoMMI from './LogoMMI.vue';
                                 </RouterLink>
                                 </MenuItem>
                                 <MenuItem v-slot="{ active }">
-                                <RouterLink to="ButMMI"
+                                <RouterLink to="/ButMMI"
                                     :class="[active ? 'bg-Blue02 text-white' : 'text-black', 'block px-4 py-2 text-lg']">
                                     BUT MMI</RouterLink>
                                 </MenuItem>
