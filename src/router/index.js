@@ -20,6 +20,10 @@ import CompteView from '../views/Compte/CompteView.vue'
 import MentionLegalView from '../views/MentionLegalView.vue'
 import PlanView from '../views/PlanView.vue'
 
+
+import Page404 from '../views/Page404.vue'
+
+
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
@@ -54,6 +58,13 @@ const router = createRouter({
 
     { path: '/ML', name: 'ML', component: MentionLegalView },
     { path: '/Plan', name: 'Plan', component: PlanView },
+
+
+    {
+      path: '/:pathMatch(.*)*',
+      name: 'page404',
+      component: Page404
+    },
   ]
 })
 
