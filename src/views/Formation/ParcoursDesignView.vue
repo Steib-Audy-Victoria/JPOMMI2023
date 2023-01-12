@@ -3,6 +3,8 @@ import temoignageGauche from '@/components/temoignage_Gauche.vue';
 import temoignageDroite from '@/components/temoignage_Droite.vue';
 import imgJulienPaquier from '/public/DesignS6Julien_Paquier.webp';
 import imgAloisBolou from '/public/DesignS6Alois_Bolou.webp';
+import btnPageD from '@/components/btnPageD.vue'
+import btnPageG from '@/components/btnPageG.vue'
 
 </script>
 
@@ -166,4 +168,16 @@ import imgAloisBolou from '/public/DesignS6Alois_Bolou.webp';
             </div>
         </div>
     </section>
+
+
+    <!--Bouton passage des pages parcours-->
+
+    <div class="flex justify-between items-center p-10">
+        <RouterLink to="/Dev" >
+            <btnPageG text="DÉCOUVREZ LE PARCOURS DÉVELOPPEMENT WEB ET DISPOSITIFS INTERACTIFS" />
+        </RouterLink> 
+        <RouterLink to="/Com">
+            <btnPageD text="DÉCOUVREZ LE PARCOURS STRATÉGIE DE COMMUNICATION NUMÉRIQUE ET DESIGN D’EXPÉRIENCE" />
+        </RouterLink>
+    </div>
 </template>

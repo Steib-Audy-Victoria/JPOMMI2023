@@ -165,4 +165,15 @@ import imgBenjaminTruchi from '/public/DevS6Benjamin_Truchi.webp';
             </div>
         </div>
     </section>
+
+    <!--Bouton passage des pages parcours-->
+
+    <div class="flex justify-between items-center p-10">
+        <RouterLink to="/Design">
+            <btnPageG text="DÉCOUVREZ LE PARCOURS CRÉATION NUMÉRIQUE" />
+        </RouterLink>
+        <RouterLink to="/Com">
+            <btnPageD text="DÉCOUVREZ LE PARCOURS STRATÉGIE DE COMMUNICATION NUMÉRIQUE ET DESIGN D’EXPÉRIENCE" />
+        </RouterLink>
+    </div>
 </template>

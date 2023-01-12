@@ -150,4 +150,15 @@ import imgLauraBrager from '/public/ComS6Laura_Brager.webp'
             </div>
         </div>
     </section>
+
+    <!--Bouton passage des pages parcours-->
+
+    <div class="flex justify-between items-center p-10">
+        <RouterLink to="/Dev">
+            <btnPageG text="DÉCOUVREZ LE PARCOURS DÉVELOPPEMENT WEB ET DISPOSITIFS INTERACTIFS" />
+        </RouterLink>
+        <RouterLink to="/Design">
+            <btnPageD text="DÉCOUVREZ LE PARCOURS CRÉATION NUMÉRIQUE" />
+        </RouterLink>
+    </div>
 </template>
