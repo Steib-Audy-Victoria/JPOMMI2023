@@ -20,7 +20,7 @@ import { ChevronUpIcon } from '@heroicons/vue/20/solid'
                 <DisclosurePanel class="px-4 pt-4 pb-2 text-sm text-black font-Montserrat dark:text-white ">
                     Le BUT MMI (Métiers du Multimédia et de l’Internet) est une <span class="font-semibold">formation du
                         numérique</span> qui se déroule sur <span class="font-semibold">3 ans</span>. Pour plus
-                    d’informations, consultez la page <span class="font-semibold italic underline text-violet-700">
+                    d’informations, consultez la page <span class="font-semibold italic underline text-violet-700 dark:text-violet-400">
                         <RouterLink to="/ButMMI">BUT MMI</RouterLink>
                     </span>.
                     <br />
@@ -168,7 +168,7 @@ import { ChevronUpIcon } from '@heroicons/vue/20/solid'
                 </DisclosureButton>
                 <DisclosurePanel class="px-4 pt-4 pb-2 text-sm text-black font-Montserrat dark:text-white ">
                     Les étudiants peuvent suivre la formation en alternance à partir de la 2e année du BUT. Consultez
-                    notre page <span class="font-semibold italic underline text-violet-700">
+                    notre page <span class="font-semibold italic underline text-violet-700 dark:text-violet-400">
                         <RouterLink to="/alternance">Alternance</RouterLink>
                     </span>
                     pour avoir plus d’informations sur l’alternance.
@@ -189,20 +189,20 @@ import { ChevronUpIcon } from '@heroicons/vue/20/solid'
                     Pour plus de
                     précisions, rendez-vous sur les pages :
                     <br />
-                    <span class="font-semibold italic underline text-violet-700">
+                    <span class="font-semibold italic underline text-violet-700 dark:text-violet-400">
                         <RouterLink to="/Com">Parcours communication</RouterLink>
                     </span>
                     <br />
-                    <span class="font-semibold italic underline text-violet-700">
+                    <span class="font-semibold italic underline text-violet-700 dark:text-violet-400">
                         <RouterLink to="/Design">Parcours design</RouterLink>
                     </span>
                     <br />
-                    <span class="font-semibold italic underline text-violet-700">
+                    <span class="font-semibold italic underline text-violet-700 dark:text-violet-400">
                         <RouterLink to="/Dev">Parcours dev</RouterLink>
                     </span>
                     <br />
                     Pour connaitre le programme complet de la première année de BUT MMI, consultez le document
-                    gouvernemental : <a class="font-semibold italic underline text-blue-700" href="https://cache.media.enseignementsup-recherche.gouv.fr/file/SPE4-MESRI-17-6-2021/35/9/Annexe_19_MMI_BUT_annee_1_1411359.pdf">Annexe MMI</a> 
+                    gouvernemental : <a class="font-semibold italic underline text-blue-700 dark:text-blue-400" href="https://cache.media.enseignementsup-recherche.gouv.fr/file/SPE4-MESRI-17-6-2021/35/9/Annexe_19_MMI_BUT_annee_1_1411359.pdf">Annexe MMI</a> 
                 </DisclosurePanel>
             </Disclosure>
             <!--Question 12-->

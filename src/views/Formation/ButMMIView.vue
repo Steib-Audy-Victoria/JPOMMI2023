@@ -31,7 +31,7 @@
                         cela consiste à alterner entre des périodes de cours et des périodes de travail en entreprise.
                         L’alternance est disponible <span class="font-semibold">à partir de la 2ème année</span>.
                         Pour avoir des informations plus complètes, rendez-vous sur la page <span
-                            class="font-semibold italic underline text-violet-700">
+                            class="font-semibold italic underline text-violet-700 dark:text-violet-400">
                             <RouterLink to="/alternance">Alternance</RouterLink>
                         </span> de notre site.</p>
                 </div>
