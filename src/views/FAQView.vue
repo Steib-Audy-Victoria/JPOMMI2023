@@ -5,19 +5,19 @@ import { ChevronUpIcon } from '@heroicons/vue/20/solid'
 
 <template>
     <div class="flex justify-center items-center py-12">
-        <h1 class="text-center text-xl md:text-2xl text-Blue01 font-semibold z-10">QUESTIONS FRÉQUENTES</h1>
+        <h1 class="text-center text-xl md:text-2xl text-Blue01 dark:text-white font-semibold z-10">QUESTIONS FRÉQUENTES</h1>
         <div class="w-16 h-5 bg-Jaune -translate-x-11 translate-y-2 z-0"></div>
     </div>
     <div class="px-4 ">
-        <div class="mx-auto w-full rounded-2xl bg-white p-2">
+        <div class="mx-auto w-full rounded-2xl bg-Grey03 dark:bg-Grey01  p-2">
             <!--Question 1-->
             <Disclosure v-slot="{ open }">
                 <DisclosureButton
-                    class="flex w-full justify-between rounded-lg bg-gray-100 px-4 py-2 text-left text-sm font-medium text-black hover:bg-gray-300 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
+                    class="flex w-full justify-between rounded-lg bg-gray-100 px-4 py-2 text-left text-sm font-medium font-Montserrat text-black  hover:bg-gray-300 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
                     <span>Qu’est-ce que le BUT MMI ?</span>
                     <ChevronUpIcon :class="open ? 'rotate-180 transform' : ''" class="h-5 w-5 text-black" />
                 </DisclosureButton>
-                <DisclosurePanel class="px-4 pt-4 pb-2 text-sm text-black">
+                <DisclosurePanel class="px-4 pt-4 pb-2 text-sm text-black font-Montserrat dark:text-white ">
                     Le BUT MMI (Métiers du Multimédia et de l’Internet) est une <span class="font-semibold">formation du
                         numérique</span> qui se déroule sur <span class="font-semibold">3 ans</span>. Pour plus
                     d’informations, consultez la page <span class="font-semibold italic underline text-violet-700">
@@ -32,11 +32,11 @@ import { ChevronUpIcon } from '@heroicons/vue/20/solid'
             <!--Question 2-->
             <Disclosure v-slot="{ open }">
                 <DisclosureButton
-                    class="flex w-full justify-between rounded-lg bg-gray-100 px-4 py-2 text-left text-sm font-medium text-black hover:bg-gray-300 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
+                    class="flex w-full justify-between rounded-lg bg-gray-100 px-4 py-2 text-left text-sm font-medium font-Montserrat text-black hover:bg-gray-300 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
                     <span>Quelles sont les matières enseignées dans le BUT MMI ?</span>
                     <ChevronUpIcon :class="open ? 'rotate-180 transform' : ''" class="h-5 w-5 text-black" />
                 </DisclosureButton>
-                <DisclosurePanel class="px-4 pt-4 pb-2 text-sm text-black">
+                <DisclosurePanel class="px-4 pt-4 pb-2 text-sm text-black font-Montserrat dark:text-white ">
                     Les matières, autrement nommées ressources, tournent autour de <span class="font-semibold">3 volets
                         principaux</span> : la communication, le design et le
                     développement sur le web. Certaines ressources comme l’anglais ou l’audiovisuel ne rentrent pas dans
@@ -47,11 +47,11 @@ import { ChevronUpIcon } from '@heroicons/vue/20/solid'
             <!--Question 3-->
             <Disclosure v-slot="{ open }">
                 <DisclosureButton
-                    class="flex w-full justify-between rounded-lg bg-gray-100 px-4 py-2 text-left text-sm font-medium text-black hover:bg-gray-300 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
+                    class="flex w-full justify-between rounded-lg bg-gray-100 px-4 py-2 text-left text-sm font-medium font-Montserrat text-black hover:bg-gray-300 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
                     <span>Quel est le volume horaire de la formation ?</span>
                     <ChevronUpIcon :class="open ? 'rotate-180 transform' : ''" class="h-5 w-5 text-black" />
                 </DisclosureButton>
-                <DisclosurePanel class="px-4 pt-4 pb-2 text-sm text-black">
+                <DisclosurePanel class="px-4 pt-4 pb-2 text-sm text-black font-Montserrat dark:text-white ">
                     Les cours sont répartis en <span class="font-semibold">plusieurs catégories</span> : les cours
                     magistraux (CM), les travaux dirigés (TD), les travaux
                     pratiques (TP) et les heures de projets. Le volume horaire total est de <span
@@ -66,11 +66,11 @@ import { ChevronUpIcon } from '@heroicons/vue/20/solid'
             <!--Question 4-->
             <Disclosure v-slot="{ open }">
                 <DisclosureButton
-                    class="flex w-full justify-between rounded-lg bg-gray-100 px-4 py-2 text-left text-sm font-medium text-black hover:bg-gray-300 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
+                    class="flex w-full justify-between rounded-lg bg-gray-100 px-4 py-2 text-left text-sm font-medium font-Montserrat text-black hover:bg-gray-300 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
                     <span>Quels sont les outils utilisés durant la formation ?</span>
                     <ChevronUpIcon :class="open ? 'rotate-180 transform' : ''" class="h-5 w-5 text-black" />
                 </DisclosureButton>
-                <DisclosurePanel class="px-4 pt-4 pb-2 text-sm text-black">
+                <DisclosurePanel class="px-4 pt-4 pb-2 text-sm text-black font-Montserrat dark:text-white ">
                     De nombreux outils différents seront utilisés dans les diverses ressources. Il peut s’agir de
                     logiciels de création, de
                     montage, de développement mais aussi des outils physiques tel que le matériel audiovisuel fourni par
@@ -83,11 +83,11 @@ import { ChevronUpIcon } from '@heroicons/vue/20/solid'
             <!--Question 5-->
             <Disclosure v-slot="{ open }">
                 <DisclosureButton
-                    class="flex w-full justify-between rounded-lg bg-gray-100 px-4 py-2 text-left text-sm font-medium text-black hover:bg-gray-300 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
+                    class="flex w-full justify-between rounded-lg bg-gray-100 px-4 py-2 text-left text-sm font-medium font-Montserrat text-black hover:bg-gray-300 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
                     <span>Quelles connaissances sont nécessaires pour pouvoir entrer dans la formation ?</span>
                     <ChevronUpIcon :class="open ? 'rotate-180 transform' : ''" class="h-5 w-5 text-black" />
                 </DisclosureButton>
-                <DisclosurePanel class="px-4 pt-4 pb-2 text-sm text-black">
+                <DisclosurePanel class="px-4 pt-4 pb-2 text-sm text-black font-Montserrat dark:text-white ">
                     Il n’est pas obligatoire d’avoir suivi un parcours particulier pour accéder à la formation, même si
                     une affinité avec le
                     développement web, le design numérique ou la communication web vous aideront à mieux appréhender les
@@ -100,11 +100,11 @@ import { ChevronUpIcon } from '@heroicons/vue/20/solid'
             <!--Question 6-->
             <Disclosure v-slot="{ open }">
                 <DisclosureButton
-                    class="flex w-full justify-between rounded-lg bg-gray-100 px-4 py-2 text-left text-sm font-medium text-black hover:bg-gray-300 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
+                    class="flex w-full justify-between rounded-lg bg-gray-100 px-4 py-2 text-left text-sm font-medium font-Montserrat text-black hover:bg-gray-300 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
                     <span>Quels sont les débouchés possibles après cette formation ?</span>
                     <ChevronUpIcon :class="open ? 'rotate-180 transform' : ''" class="h-5 w-5 text-black" />
                 </DisclosureButton>
-                <DisclosurePanel class="px-4 pt-4 pb-2 text-sm text-black">
+                <DisclosurePanel class="px-4 pt-4 pb-2 text-sm text-black font-Montserrat dark:text-white ">
                     Étant une formation du domaine du numérique et du web mais tout de même éclectique, la formation
                     ouvre de nombreux
                     chemins pour les futurs bachelors. Une large partie des métiers leur seront directement accessible
@@ -119,11 +119,11 @@ import { ChevronUpIcon } from '@heroicons/vue/20/solid'
             <!--Question 7-->
             <Disclosure v-slot="{ open }">
                 <DisclosureButton
-                    class="flex w-full justify-between rounded-lg bg-gray-100 px-4 py-2 text-left text-sm font-medium text-black hover:bg-gray-300 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
+                    class="flex w-full justify-between rounded-lg bg-gray-100 px-4 py-2 text-left text-sm font-medium font-Montserrat text-black hover:bg-gray-300 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
                     <span>Quand est-ce que la spécialisation intervient dans la formation ?</span>
                     <ChevronUpIcon :class="open ? 'rotate-180 transform' : ''" class="h-5 w-5 text-black" />
                 </DisclosureButton>
-                <DisclosurePanel class="px-4 pt-4 pb-2 text-sm text-black">
+                <DisclosurePanel class="px-4 pt-4 pb-2 text-sm text-black font-Montserrat dark:text-white ">
                     À la fin de la première année de BUT, les étudiants peuvent choisir un des 3 parcours proposés par
                     la formation. Chacun
                     d’eux se concentre sur un des volets de MMI, à savoir la communication, le design et le
@@ -136,11 +136,11 @@ import { ChevronUpIcon } from '@heroicons/vue/20/solid'
             <!--Question 8-->
             <Disclosure v-slot="{ open }">
                 <DisclosureButton
-                    class="flex w-full justify-between rounded-lg bg-gray-100 px-4 py-2 text-left text-sm font-medium text-black hover:bg-gray-300 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
+                    class="flex w-full justify-between rounded-lg bg-gray-100 px-4 py-2 text-left text-sm font-medium font-Montserrat text-black hover:bg-gray-300 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
                     <span>Quand aura lieu la rentrée ?</span>
                     <ChevronUpIcon :class="open ? 'rotate-180 transform' : ''" class="h-5 w-5 text-black" />
                 </DisclosureButton>
-                <DisclosurePanel class="px-4 pt-4 pb-2 text-sm text-black">
+                <DisclosurePanel class="px-4 pt-4 pb-2 text-sm text-black font-Montserrat dark:text-white ">
                     La rentrée 2023 se déroulera le jeudi 31 août et débutera par une réunion explicative en
                     amphithéâtre, permettant aux
                     élèves de prendre connaissance de toutes les informations nécessaires pour leur début d’année.
@@ -149,11 +149,11 @@ import { ChevronUpIcon } from '@heroicons/vue/20/solid'
             <!--Question 9-->
             <Disclosure v-slot="{ open }">
                 <DisclosureButton
-                    class="flex w-full justify-between rounded-lg bg-gray-100 px-4 py-2 text-left text-sm font-medium text-black hover:bg-gray-300 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
+                    class="flex w-full justify-between rounded-lg bg-gray-100 px-4 py-2 text-left text-sm font-medium font-Montserrat text-black hover:bg-gray-300 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
                     <span>Que vais-je apprendre durant la formation ?</span>
                     <ChevronUpIcon :class="open ? 'rotate-180 transform' : ''" class="h-5 w-5 text-black" />
                 </DisclosureButton>
-                <DisclosurePanel class="px-4 pt-4 pb-2 text-sm text-black">
+                <DisclosurePanel class="px-4 pt-4 pb-2 text-sm text-black font-Montserrat dark:text-white ">
                     Pour faire bref, vous allez apprendre à maitriser toutes les facettes du numérique, en manipulant
                     différents outils afin
                     de les maitriser et pour faire de vous des professionnels du domaine du web.
@@ -162,11 +162,11 @@ import { ChevronUpIcon } from '@heroicons/vue/20/solid'
             <!--Question 10-->
             <Disclosure v-slot="{ open }">
                 <DisclosureButton
-                    class="flex w-full justify-between rounded-lg bg-gray-100 px-4 py-2 text-left text-sm font-medium text-black hover:bg-gray-300 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
+                    class="flex w-full justify-between rounded-lg bg-gray-100 px-4 py-2 text-left text-sm font-medium font-Montserrat text-black hover:bg-gray-300 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
                     <span>Est-ce qu’il est possible de réaliser une alternance ?</span>
                     <ChevronUpIcon :class="open ? 'rotate-180 transform' : ''" class="h-5 w-5 text-black" />
                 </DisclosureButton>
-                <DisclosurePanel class="px-4 pt-4 pb-2 text-sm text-black">
+                <DisclosurePanel class="px-4 pt-4 pb-2 text-sm text-black font-Montserrat dark:text-white ">
                     Les étudiants peuvent suivre la formation en alternance à partir de la 2e année du BUT. Consultez
                     notre page <span class="font-semibold italic underline text-violet-700">
                         <RouterLink to="/alternance">Alternance</RouterLink>
@@ -177,12 +177,12 @@ import { ChevronUpIcon } from '@heroicons/vue/20/solid'
             <!--Question 11-->
             <Disclosure v-slot="{ open }">
                 <DisclosureButton
-                    class="flex w-full justify-between rounded-lg bg-gray-100 px-4 py-2 text-left text-sm font-medium text-black hover:bg-gray-300 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
+                    class="flex w-full justify-between rounded-lg bg-gray-100 px-4 py-2 text-left text-sm font-medium font-Montserrat text-black hover:bg-gray-300 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
                     <span>Qu’est-ce qui varie entre les différents volets de la formation (communication / design /
                         développement) ?</span>
                     <ChevronUpIcon :class="open ? 'rotate-180 transform' : ''" class="h-5 w-5 text-black" />
                 </DisclosureButton>
-                <DisclosurePanel class="px-4 pt-4 pb-2 text-sm text-black">
+                <DisclosurePanel class="px-4 pt-4 pb-2 text-sm text-black font-Montserrat dark:text-white ">
                     Les 3 volets principaux sont tous liés entre eux, d’une manière à former un processus complet de
                     création et réalisation
                     d’un projet professionnel. Cependant, chacun d’eux joue un rôle bien défini au sein de la formation.
@@ -202,18 +202,17 @@ import { ChevronUpIcon } from '@heroicons/vue/20/solid'
                     </span>
                     <br />
                     Pour connaitre le programme complet de la première année de BUT MMI, consultez le document
-                    gouvernemental : Annexe MMI
-                    (https://cache.media.enseignementsup-recherche.gouv.fr/file/SPE4-MESRI-17-6-2021/35/9/Annexe_19_MMI_BUT_annee_1_1411359.pdf)
+                    gouvernemental : <a class="font-semibold italic underline text-blue-700" href="https://cache.media.enseignementsup-recherche.gouv.fr/file/SPE4-MESRI-17-6-2021/35/9/Annexe_19_MMI_BUT_annee_1_1411359.pdf">Annexe MMI</a> 
                 </DisclosurePanel>
             </Disclosure>
             <!--Question 12-->
             <Disclosure v-slot="{ open }">
                 <DisclosureButton
-                    class="flex w-full justify-between rounded-lg bg-gray-100 px-4 py-2 text-left text-sm font-medium text-black hover:bg-gray-300 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
+                    class="flex w-full justify-between rounded-lg bg-gray-100 px-4 py-2 text-left text-sm font-medium font-Montserrat text-black hover:bg-gray-300 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
                     <span>Que faire pour me préparer à la formation ?</span>
                     <ChevronUpIcon :class="open ? 'rotate-180 transform' : ''" class="h-5 w-5 text-black" />
                 </DisclosureButton>
-                <DisclosurePanel class="px-4 pt-4 pb-2 text-sm text-black">
+                <DisclosurePanel class="px-4 pt-4 pb-2 text-sm text-black font-Montserrat dark:text-white ">
                     Si vous souhaitez prendre de l’avance sur la formation, vous pouvez commencer par vous former à
                     l’intégration et au
                     développement web par vous-même afin d’assimiler les bases de la construction d’un site web. Vous
@@ -226,11 +225,11 @@ import { ChevronUpIcon } from '@heroicons/vue/20/solid'
             <!--Question 13-->
             <Disclosure v-slot="{ open }">
                 <DisclosureButton
-                    class="flex w-full justify-between rounded-lg bg-gray-100 px-4 py-2 text-left text-sm font-medium text-black hover:bg-gray-300 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
+                    class="flex w-full justify-between rounded-lg bg-gray-100 px-4 py-2 text-left text-sm font-medium font-Montserrat text-black hover:bg-gray-300 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
                     <span>Quel volet occupe le plus de place dans la formation ?</span>
                     <ChevronUpIcon :class="open ? 'rotate-180 transform' : ''" class="h-5 w-5 text-black" />
                 </DisclosureButton>
-                <DisclosurePanel class="px-4 pt-4 pb-2 text-sm text-black">
+                <DisclosurePanel class="px-4 pt-4 pb-2 text-sm text-black font-Montserrat dark:text-white ">
                     Bien que les premiers mois de la formation soit quasi-exclusivement centré sur la communication,
                     chaque volet représente
                     un aspect essentiel de la formation de manière sensiblement égale. Cela comprend le taux horaire

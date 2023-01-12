@@ -6,15 +6,15 @@ import temoignageDroite from '@/components/temoignage_Droite.vue';
 
 <template>
     <div class="flex justify-center items-center py-12">
-        <h1 class="text-center text-xl md:text-2xl text-Blue01 font-semibold z-10">ALTERNANCE</h1>
+        <h1 class="text-center text-xl md:text-2xl text-Blue01 font-Montserrat dark:text-white font-semibold z-10">ALTERNANCE</h1>
         <div class="w-16 h-5 bg-Jaune -translate-x-11 translate-y-2 z-0"></div>
 
     </div>
     <!--Section 1 (S1): Qu’est ce que l’alternance en MMI? -->
     <section>
         <div class="grid grid-cols-1 md:grid-cols-2">
-            <div class="flex flex-col justify-center items-center">
-                <h2 class="text-center text-lg md:text-xl text-Blue01 font-semibold py-4">Qu’est ce que l’alternance en
+            <div class="flex flex-col justify-center items-center font-Montserrat">
+                <h2 class="text-center text-lg md:text-xl text-Blue01 dark:text-white font-semibold py-4">Qu’est ce que l’alternance en
                     MMI ?</h2>
                 <p class="px-10">L’alternance laisse la possibilité à l’étudiant, en parallèle du suivi des cours, de
                     <span class="font-semibold">travailler en entreprise</span> sur des
@@ -40,7 +40,7 @@ import temoignageDroite from '@/components/temoignage_Droite.vue';
     </section>
 
     <!--Section 2 (S2): Découvrez l’alternance au sein de l’IUT -->
-    <section class="mb-4 mt-10">
+    <section class="pb-4 mt-10">
         <div class="grid grid-cols-1 md:grid-cols-2">
             <div class="flex justify-center items-center ">
                 <iframe width="610" height="343" src="https://www.youtube.com/embed/rcoTCRK1WFk"
@@ -48,8 +48,8 @@ import temoignageDroite from '@/components/temoignage_Droite.vue';
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen></iframe>
             </div>
-            <div class="flex flex-col justify-center items-center">
-                <h2 class="text-center text-lg md:text-xl text-Blue01 font-semibold py-4">Découvrez l’alternance au sein
+            <div class="flex flex-col justify-center items-center font-Montserrat">
+                <h2 class="text-center text-lg md:text-xl text-Blue01 dark:text-white font-semibold py-4">Découvrez l’alternance au sein
                     de l’IUT
                 </h2>
                 <p class="px-10">Découvrez un des points forts des IUT : l'acquisition d'une expérience professionnelle
@@ -65,7 +65,7 @@ import temoignageDroite from '@/components/temoignage_Droite.vue';
     <section>
         <div class=" py-12">
             <div class="flex justify-center items-center">
-                <h2 class="text-center text-xl md:text-2xl text-Blue01 font-semibold z-10">Témoignages de nos anciens
+                <h2 class="text-center text-xl md:text-2xl text-Blue01 font-Montserrat dark:text-white font-semibold z-10">Témoignages de nos anciens
                     étudiants</h2>
                 <div class="w-16 h-5 bg-Jaune -translate-x-11 translate-y-2 z-0"></div>
             </div>

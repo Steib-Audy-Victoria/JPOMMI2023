@@ -1,15 +1,15 @@
 <template>
     <div class="bg-[url('/public/HomeLine.svg')]">
         <div class="flex justify-center items-center py-12">
-            <h1 class="text-center text-xl md:text-2xl text-Blue01 font-semibold z-10">BUT MMI</h1>
+            <h1 class="text-center text-xl md:text-2xl text-Blue01 font-Montserrat dark:text-white font-semibold z-10">BUT MMI</h1>
             <div class="w-16 h-5 bg-Jaune -translate-x-11 translate-y-2 z-0"></div>
         </div>
 
         <!--Section 1 (S1): Qu’est ce que le BUT MMI ? -->
         <section>
             <div class="grid grid-cols-1 md:grid-cols-2">
-                <div class="flex flex-col justify-center items-center">
-                    <h2 class="text-center text-lg md:text-xl text-Blue01 font-semibold py-4">Qu’est ce que le BUT MMI ?
+                <div class="flex flex-col justify-center items-center font-Montserrat">
+                    <h2 class="text-center text-lg md:text-xl text-Blue01 dark:text-white font-semibold py-4">Qu’est ce que le BUT MMI ?
                     </h2>
                     <p class="px-10 py-2">Le BUT Métiers du Multimédia et de l’Internet, est une formation, qui vise à
                         former des <span class="font-semibold">professionnels du web</span> en
@@ -46,8 +46,8 @@
         <!--Section 2 (S2): Découvre le nouveau B.U.T. -->
         <section class="my-20">
             <div class="grid grid-cols-1 md:grid-cols-2">
-                <div class="flex flex-col justify-center items-center">
-                    <h2 class="text-center text-lg md:text-xl text-Blue01 font-semibold py-4">Découvre le nouveau B.U.T.
+                <div class="flex flex-col justify-center  items-center font-Montserrat">
+                    <h2 class="text-center text-lg md:text-xl text-Blue01 dark:text-white font-semibold py-4">Découvre le nouveau B.U.T.
                     </h2>
                     <p class="px-10 py-2">Contrairement au DUT, le BUT propose une <span class="font-semibold">année de
                             formation supplémentaire</span> pour permettre aux étudiants de mieux
@@ -98,8 +98,8 @@
         <!--Section 3 (S3): Les attendus Parcoursup -->
         <section class="my-20">
             <div class="grid grid-cols-1 md:grid-cols-2">
-                <div class="flex flex-col justify-center items-center">
-                    <h2 class="text-center text-lg md:text-xl text-Blue01 font-semibold py-4">Les attendus Parcoursup
+                <div class="flex flex-col justify-center items-center font-Montserrat">
+                    <h2 class="text-center text-lg md:text-xl text-Blue01 dark:text-white font-semibold py-4">Les attendus Parcoursup
                     </h2>
                     <div class="px-10">
                         <p>ATTENDUS NATIONAUX DE LA PLATEFORME D'INSCRIPTION DANS L'ENSEIGNEMENT SUPÉRIEUR PARCOURSUP
@@ -137,7 +137,7 @@
                 </div>
             </div>
             <div class="px-10">
-                <div class="pt-4">
+                <div class="pt-4 font-Montserrat">
                     <p>COMPETENCES GENERALES</p>
                     <p>Avoir une maitrise du français permettant de communiquer à l'écrit et à l'oral de façon adaptée,
                         de comprendre un
@@ -160,14 +160,14 @@
         <!--Section 4 (S4): Parcours -->
         <section class="py-20">
             <div class="flex justify-center items-center pb-12">
-                <h1 class="text-center text-xl md:text-2xl text-Blue01 font-semibold z-10">Découvrez nos pôles MMI</h1>
+                <h1 class="text-center text-xl md:text-2xl text-Blue01 font-Montserrat dark:text-white font-semibold z-10">Découvrez nos pôles MMI</h1>
                 <div class="w-16 h-5 bg-Jaune -translate-x-11 translate-y-2 z-0"></div>
             </div>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
 
                 <RouterLink to="/Dev" class="text-center mx-5 ">
-                    <p class="text-base md:text-xl text-Blue01 font-semibold py-4">Développement</p>
-                    <div class="bg-gradient-to-r from-[#D35C70] to-[#EBAA51] text-white px-10 py-8 h-5/6 ">
+                    <p class="text-base md:text-xl text-Blue01 font-semibold font-Montserrat dark:text-Jaune py-4">Développement</p>
+                    <div class="bg-gradient-to-r from-[#D35C70] to-[#EBAA51] font-Montserrat text-white px-10 py-8 h-5/6 ">
                         <h2 class="textxl md:text-2xl pb-6">Etudier et concevoir</h2>
                         <p class="text-justify mx-4">Apprenez la base du développement et approfondissez vos connaissances dans
                             les différents langages de programmation, en
@@ -177,8 +177,8 @@
                     </div>
                 </RouterLink>
                 <RouterLink to="/Com" class="text-center mx-5">
-                    <p class="text-base md:text-xl text-Blue01 font-semibold py-4">Communication</p>
-                    <div class="bg-gradient-to-tr from-[#155799] to-[#159597] text-white px-10 py-8 h-5/6">
+                    <p class="text-base md:text-xl text-Blue01 font-Montserrat dark:text-Jaune font-semibold py-4">Communication</p>
+                    <div class="bg-gradient-to-tr from-[#155799] to-[#159597] font-Montserrat text-white px-10 py-8 h-5/6">
                         <h2 class="text-lg md:text-2xl pb-6">Comprendre et exploiter...</h2>
                         <p class="text-justify mx-4">Découvrez comment construire la communication autour d’un projet digital et
                             comment exploiter les données, pour créer un
@@ -189,8 +189,8 @@
                     </div>
                 </RouterLink>
                 <RouterLink to="/Design" class="text-center mx-5">
-                    <p class="text-base md:text-xl text-Blue01 font-semibold py-4">Design</p>
-                    <div class="bg-gradient-to-bl from-[#CB3066] to-[#16BFFD] text-white px-10 py-8 h-5/6">
+                    <p class="text-base md:text-xl text-Blue01 font-Montserrat dark:text-Jaune font-semibold py-4">Design</p>
+                    <div class="bg-gradient-to-bl from-[#CB3066] to-[#16BFFD] font-Montserrat text-white px-10 py-8 h-5/6">
                         <h2 class="text-lg md:text-2xl pb-6">S’inspirer et créer</h2>
                         <p class="text-justify mx-4">Apprenez à utiliser les logiciels de création numérique, de montage et de
                             prototypage, tout en élargissant votre culture

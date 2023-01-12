@@ -7,11 +7,10 @@ import imgBenjaminTruchi from '/public/DevS6Benjamin_Truchi.webp';
 
 <template>
     <div class="py-12">
-        <h1 class="text-center text-xl md:text-2xl text-Blue01 font-semibold z-10">BUT MMI</h1>
+        <h1 class="text-center text-xl md:text-2xl text-Blue01 font-Montserrat dark:text-white font-semibold z-10">BUT MMI</h1>
         <div class="flex justify-center items-center ">
-            <h2 class="text-center text-xl md:text-2xl text-Blue01 font-semibold z-10">
-                PARCOURS DÉVELOPPEMENT WEB
-                ET DISPOSITIFS INTERACTIFS</h2>
+            <h2 class="text-center text-xl md:text-2xl text-Blue01 font-Montserrat dark:text-white font-semibold z-10">
+                PARCOURS DÉVELOPPEMENT WEB ET DISPOSITIFS INTERACTIFS</h2>
             <div class="w-16 h-5 bg-Jaune -translate-x-11 translate-y-2 z-0"></div>
         </div>
     </div>
@@ -19,8 +18,8 @@ import imgBenjaminTruchi from '/public/DevS6Benjamin_Truchi.webp';
     <!--Section 1 (S1): Qu’est-ce que le pôle Développement ? -->
     <section>
         <div class="grid grid-cols-1 md:grid-cols-2">
-            <div class="flex flex-col justify-center items-center">
-                <h3 class="text-center text-lg md:text-xl text-Blue01 font-semibold py-4">Qu’est-ce que le pôle
+            <div class="flex flex-col justify-center items-center font-Montserrat">
+                <h3 class="text-center text-lg md:text-xl text-Blue01 dark:text-white font-semibold py-4">Qu’est-ce que le pôle
                     Développement ?</h3>
                 <p class="px-10 py-2">Le parcours Développement web et dispositif intéractifs, regroupe toutes les
                     connaissances nécessaire à la <span class="font-semibold">mise en place
@@ -50,8 +49,8 @@ import imgBenjaminTruchi from '/public/DevS6Benjamin_Truchi.webp';
             <div class="flex justify-center items-center">
                 <img src="/public/DevS2Logos.svg" alt="">
             </div>
-            <div class="flex flex-col justify-center items-center">
-                <h3 class="text-center text-lg md:text-xl text-Blue01 font-semibold py-4">Les compétences enseignées
+            <div class="flex flex-col justify-center items-center font-Montserrat">
+                <h3 class="text-center text-lg md:text-xl text-Blue01 dark:text-white font-semibold py-4">Les compétences enseignées
                 </h3>
                 <p class="px-10 py-2">La formation commence par apprendre aux étudiants comment utiliser les <span
                         class="font-semibold">langages</span> de base de la <span
@@ -79,8 +78,8 @@ import imgBenjaminTruchi from '/public/DevS6Benjamin_Truchi.webp';
     <!--Section 3 (S3): Une compétence nécessaire pour le monde de demain -->
     <section class="my-20">
         <div class="grid grid-cols-1 md:grid-cols-2">
-            <div class="flex flex-col justify-center items-center">
-                <h3 class="text-center text-lg md:text-xl text-Blue01 font-semibold py-4">Une compétence nécessaire pour
+            <div class="flex flex-col justify-center items-center font-Montserrat">
+                <h3 class="text-center text-lg md:text-xl text-Blue01 dark:text-white font-semibold py-4">Une compétence nécessaire pour
                     le monde de demain
                 </h3>
                 <p class="px-10">Les technologies évoluent très rapidement, les développeurs web se doivent d’être <span
@@ -111,24 +110,24 @@ import imgBenjaminTruchi from '/public/DevS6Benjamin_Truchi.webp';
 
     <!--Section 4 (S4): Enseignants -->
     <section class="my-20 bg-gradient-to-r from-[#D35C70] to-[#EBAA51] text-white">
-        <div class="text-center pt-8">
+        <div class="text-center font-Montserrat pt-8">
             <h3>Des enseignants qualifiés</h3>
             <p>Nous sommes soucieux de la qualité de l’enseignement pour nos étudiants</p>
         </div>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-            <div class="flex flex-col justify-center items-center py-4">
+            <div class="flex flex-col justify-center items-center font-Montserrat py-4">
                 <img class="w-60 h-w-60 rounded-full " src="/public/DevS6Abdallah_Makhoul.webp" alt="">
                 <p class="font-bold py-2">Abdallah Makhoul</p>
                 <p>Enseignant-Chercheur Femto-ST</p>
                 <p class="py-2">14 ans d’expertise</p>
             </div>
-            <div class="flex flex-col justify-center items-center py-4">
+            <div class="flex flex-col justify-center items-center font-Montserrat py-4">
                 <img class="w-60 h-w-60 rounded-full " src="/public/DevS6Jean-Marie_Fino.webp" alt="">
                 <p class="font-bold py-2">Jean-Marie Fino</p>
                 <p>Enseignant - Maitre de conférence associé</p>
                 <p class="py-2">26 ans d’expertise</p>
             </div>
-            <div class="flex flex-col justify-center items-center py-4">
+            <div class="flex flex-col justify-center items-center font-Montserrat py-4">
                 <img class="w-60 h-w-60 rounded-full " src="/public/DevS6Hakim_Mabed.webp" alt="">
                 <p class="font-bold py-2">Hakim Mabed</p>
                 <p>Enseignant-Chercheur en hébergement web</p>
@@ -140,7 +139,7 @@ import imgBenjaminTruchi from '/public/DevS6Benjamin_Truchi.webp';
     <!--Section 5 (S5) : Lien-->
     <section>
         <div class="flex justify-center items-center">
-            <h3 class="text-center text-xl md:text-2xl text-Blue01 font-semibold z-10">Des projets innovants</h3>
+            <h3 class="text-center text-xl md:text-2xl text-Blue01 font-Montserrat dark:text-white font-semibold z-10">Des projets innovants</h3>
             <div class="w-16 h-5 bg-Jaune -translate-x-11 translate-y-2 z-0"></div>
         </div>
         <div>
@@ -152,7 +151,7 @@ import imgBenjaminTruchi from '/public/DevS6Benjamin_Truchi.webp';
     <section>
         <div class="bg-[url('/public/TemoignageLogo.webp')] py-12">
             <div class="flex justify-center items-center">
-                <h3 class="text-center text-xl md:text-2xl text-Blue01 font-semibold z-10">Témoignages de nos anciens
+                <h3 class="text-center text-xl md:text-2xl text-Blue01 font-Montserrat dark:text-white font-semibold z-10">Témoignages de nos anciens
                     étudiants</h3>
                 <div class="w-16 h-5 bg-Jaune -translate-x-11 translate-y-2 z-0"></div>
             </div>

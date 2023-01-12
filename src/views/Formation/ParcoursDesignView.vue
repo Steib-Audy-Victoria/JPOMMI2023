@@ -8,9 +8,9 @@ import imgAloisBolou from '/public/DesignS6Alois_Bolou.webp';
 
 <template>
     <div class="py-12">
-        <h1 class="text-center text-xl md:text-2xl text-Blue01 font-semibold z-10">BUT MMI</h1>
+        <h1 class="text-center text-xl md:text-2xl text-Blue01 font-Montserrat dark:text-white font-semibold z-10">BUT MMI</h1>
         <div class="flex justify-center items-center ">
-            <h2 class="text-center text-xl md:text-2xl text-Blue01 font-semibold z-10">PARCOURS CREATION NUMERIQUE</h2>
+            <h2 class="text-center text-xl md:text-2xl text-Blue01 font-Montserrat dark:text-white font-semibold z-10">PARCOURS CREATION NUMERIQUE</h2>
             <div class="w-16 h-5 bg-Jaune -translate-x-11 translate-y-2 z-0"></div>
         </div>
     </div>
@@ -18,8 +18,8 @@ import imgAloisBolou from '/public/DesignS6Alois_Bolou.webp';
     <!--Section 1 (S1): Qu’est-ce que le pôle Création ? -->
     <section>
         <div class="grid grid-cols-1 md:grid-cols-2">
-            <div class="flex flex-col justify-center items-center">
-                <h3 class="text-center text-lg md:text-xl text-Blue01 font-semibold py-4">Qu’est-ce que le pôle Création
+            <div class="flex flex-col justify-center items-center font-Montserrat">
+                <h3 class="text-center text-lg md:text-xl text-Blue01 dark:text-white font-semibold py-4">Qu’est-ce que le pôle Création
                     ?</h3>
                 <p class="px-10 py-2">Ce parcours s’appuie sur la compétence « <span
                         class="font-semibold">Exprimer</span> », c’est-à-dire savoir <span
@@ -50,8 +50,8 @@ import imgAloisBolou from '/public/DesignS6Alois_Bolou.webp';
             <div class="flex justify-center items-center">
                 <img src="/public/DesignS2Logos.svg" alt="">
             </div>
-            <div class="flex flex-col justify-center items-center">
-                <h3 class="text-center text-lg md:text-xl text-Blue01 font-semibold py-4">Les logiciels à découvrir</h3>
+            <div class="flex flex-col justify-center items-center font-Montserrat">
+                <h3 class="text-center text-lg md:text-xl text-Blue01 dark:text-white font-semibold py-4">Les logiciels à découvrir</h3>
                 <p class="px-10 pt-2">Dans le parcours création numérique, les étudiants sont amenés à utiliser de
                     nombreux logiciels comme la <span class="font-semibold">suite Adobe</span>
                     (notamment Illustrator et Photoshop), <span class="font-semibold">Figma</span> ou encore <span
@@ -73,8 +73,8 @@ import imgAloisBolou from '/public/DesignS6Alois_Bolou.webp';
     <!--Section 3 (S3): L’innovation au coeur des métiers du web -->
     <section class="my-20">
         <div class="grid grid-cols-1 md:grid-cols-2">
-            <div class="flex flex-col justify-center items-center">
-                <h3 class="text-center text-lg md:text-xl text-Blue01 font-semibold py-4">L’innovation au coeur des
+            <div class="flex flex-col justify-center items-center font-Montserrat">
+                <h3 class="text-center text-lg md:text-xl text-Blue01 dark:text-white font-semibold py-4">L’innovation au coeur des
                     métiers du web
                 </h3>
                 <p class="px-10 py-2">Le web est un domaine où les métiers et les outils sont en constante <span
@@ -98,24 +98,24 @@ import imgAloisBolou from '/public/DesignS6Alois_Bolou.webp';
 
     <!--Section 4 (S4): Enseignants -->
     <section class="my-20 bg-gradient-to-bl from-[#CB3066] to-[#16BFFD] text-white">
-        <div class="text-center pt-8">
+        <div class="text-center font-Montserrat pt-8">
             <h3>Des enseignants qualifiés</h3>
             <p>Nous sommes soucieux de la qualité de l’enseignement pour nos étudiants</p>
         </div>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-            <div class="flex flex-col justify-center items-center py-4">
+            <div class="flex flex-col justify-center items-center font-Montserrat py-4">
                 <img class="w-60 h-w-60 rounded-full " src="/public/DesignS4Xavier_Senente.webp" alt="">
                 <p class="font-bold py-2">Xavier Senente</p>
                 <p>Enseignant en design graphique</p>
                 <p class="py-2">22 ans d’expertise</p>
             </div>
-            <div class="flex flex-col justify-center items-center py-4">
+            <div class="flex flex-col justify-center items-center font-Montserrat py-4">
                 <img class="w-60 h-w-60 rounded-full " src="/public/DesignS4Alain_Lamboux-Durand.webp" alt="">
                 <p class="font-bold py-2">Alain Lamboux-Durand</p>
                 <p>Chef du département MMI</p>
                 <p class="py-2">19 ans d’expertise</p>
             </div>
-            <div class="flex flex-col justify-center items-center py-4">
+            <div class="flex flex-col justify-center items-center font-Montserrat py-4">
                 <img class="w-60 h-w-60 rounded-full " src="/public/DesignS4Sebastien_Augier.webp" alt="">
                 <p class="font-bold py-2">Sébastien Augier</p>
                 <p>Professeur agrégé en audiovisuel</p>
@@ -127,7 +127,7 @@ import imgAloisBolou from '/public/DesignS6Alois_Bolou.webp';
     <!--Section 5 (S5) : Projet-->
     <section>
         <div class="flex justify-center items-center">
-            <h3 class="text-center text-xl md:text-2xl text-Blue01 font-semibold z-10">Des projets innovants</h3>
+            <h3 class="text-center text-xl md:text-2xl text-Blue01 font-Montserrat dark:text-white font-semibold z-10">Des projets innovants</h3>
             <div class="w-16 h-5 bg-Jaune -translate-x-11 translate-y-2 z-0"></div>
         </div>
         <div class="carousel m-6">
@@ -153,7 +153,7 @@ import imgAloisBolou from '/public/DesignS6Alois_Bolou.webp';
     <section>
         <div class="bg-[url('/public/TemoignageLogo.webp')] py-12">
             <div class="flex justify-center items-center">
-                <h3 class="text-center text-xl md:text-2xl text-Blue01 font-semibold z-10">Témoignages de nos anciens
+                <h3 class="text-center text-xl md:text-2xl text-Blue01 font-Montserrat dark:text-white font-semibold z-10">Témoignages de nos anciens
                     étudiants</h3>
                 <div class="w-16 h-5 bg-Jaune -translate-x-11 translate-y-2 z-0"></div>
             </div>

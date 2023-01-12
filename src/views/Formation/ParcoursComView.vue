@@ -7,11 +7,10 @@ import imgLauraBrager from '/public/ComS6Laura_Brager.webp'
 
 <template>
     <div class="py-12">
-        <h1 class="text-center text-xl md:text-2xl text-Blue01 font-semibold z-10">BUT MMI</h1>
+        <h1 class="text-center text-xl md:text-2xl text-Blue01 font-Montserrat dark:text-white font-semibold z-10">BUT MMI</h1>
         <div class="flex justify-center items-center ">
-            <h2 class="text-center text-xl md:text-2xl text-Blue01 font-semibold z-10">PARCOURS STRATÉGIE DE
-                COMMUNICATION NUMÉRIQUE
-                ET DESIGN D’EXPÉRIENCE</h2>
+            <h2 class="text-center text-xl md:text-2xl text-Blue01 font-Montserrat dark:text-white font-semibold z-10">PARCOURS STRATÉGIE DE
+                COMMUNICATION NUMÉRIQUE ET DESIGN D’EXPÉRIENCE</h2>
             <div class="w-16 h-5 bg-Jaune -translate-x-11 translate-y-2 z-0"></div>
         </div>
     </div>
@@ -19,8 +18,8 @@ import imgLauraBrager from '/public/ComS6Laura_Brager.webp'
     <!--Section 1 (S1): Qu’est-ce que le pôle Communication ? -->
     <section>
         <div class="grid grid-cols-1 md:grid-cols-2">
-            <div class="flex flex-col justify-center items-center">
-                <h3 class="text-center text-lg md:text-xl text-Blue01 font-semibold py-4">Qu’est-ce que le pôle
+            <div class="flex flex-col justify-center items-center font-Montserrat">
+                <h3 class="text-center text-lg md:text-xl text-Blue01  dark:text-white font-semibold py-4">Qu’est-ce que le pôle
                     Communication ?</h3>
                 <p class="px-10 py-2">Ce parcours s’appuie sur la compétence « <span
                         class="font-semibold">Concevoir</span> »,
@@ -52,8 +51,8 @@ import imgLauraBrager from '/public/ComS6Laura_Brager.webp'
             <div class="flex justify-center items-center">
                 <img src="/public/ComS2Logos.svg" alt="">
             </div>
-            <div class="flex flex-col justify-center items-center">
-                <h3 class="text-center text-lg md:text-xl text-Blue01 font-semibold py-4">Les outils utilisés</h3>
+            <div class="flex flex-col justify-center items-center font-Montserrat">
+                <h3 class="text-center text-lg md:text-xl text-Blue01 dark:text-white font-semibold py-4">Les outils utilisés</h3>
                 <p class="px-10">Dans ce parcours, les logiciels utilisés sont variés, les suites Google et Microsoft
                     par exemple, sont utilisé.
                     En particulier <span class="font-semibold">Google Drive</span> qui permet de centraliser tous les
@@ -76,8 +75,8 @@ import imgLauraBrager from '/public/ComS6Laura_Brager.webp'
     <!--Section 3 (S3): Un parcours utile dans tous les cas de figure -->
     <section class="my-20">
         <div class="grid grid-cols-1 md:grid-cols-2">
-            <div class="flex flex-col justify-center items-center">
-                <h3 class="text-center text-lg md:text-xl text-Blue01 font-semibold py-4">Un parcours utile dans tous
+            <div class="flex flex-col justify-center items-center font-Montserrat">
+                <h3 class="text-center text-lg md:text-xl text-Blue01 dark:text-white font-semibold py-4">Un parcours utile dans tous
                     les cas de figure
                 </h3>
                 <p class="px-10">Le parcours “<span class="font-semibold">Stratégie de communication et design
@@ -99,11 +98,11 @@ import imgLauraBrager from '/public/ComS6Laura_Brager.webp'
 
     <!--Section 4 (S4): Enseignants -->
     <section class="my-20 bg-gradient-to-tr from-[#155799] to-[#159597] text-white">
-        <div class="text-center pt-8">
+        <div class="text-center font-Montserrat pt-8">
             <h3>Des enseignants qualifiés</h3>
             <p>Nous sommes soucieux de la qualité de l’enseignement pour nos étudiants</p>
         </div>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 font-Montserrat">
             <div class="flex flex-col justify-center items-center py-4">
                 <img class="w-60 h-w-60 rounded-full " src="/public/ComS4Pascal_Chatonnay.webp" alt="">
                 <p class="font-bold py-2">Pascal Chatonnay</p>
@@ -128,7 +127,7 @@ import imgLauraBrager from '/public/ComS6Laura_Brager.webp'
     <!--Section 5 (S5) : Lien-->
     <section>
         <div class="flex justify-center items-center">
-            <h3 class="text-center text-xl md:text-2xl text-Blue01 font-semibold z-10">Des projets innovants</h3>
+            <h3 class="text-center text-xl md:text-2xl text-Blue01 font-Montserrat dark:text-white font-semibold z-10">Des projets innovants</h3>
             <div class="w-16 h-5 bg-Jaune -translate-x-11 translate-y-2 z-0"></div>
         </div>
         <div>
@@ -140,7 +139,7 @@ import imgLauraBrager from '/public/ComS6Laura_Brager.webp'
     <section>
         <div class="bg-[url('/public/TemoignageLogo.webp')] py-12">
             <div class="flex justify-center items-center">
-                <h3 class="text-center text-xl md:text-2xl text-Blue01 font-semibold z-10">Témoignages de nos anciens
+                <h3 class="text-center text-xl md:text-2xl text-Blue01 font-Montserrat dark:text-white font-semibold z-10">Témoignages de nos anciens
                     étudiants</h3>
                 <div class="w-16 h-5 bg-Jaune -translate-x-11 translate-y-2 z-0"></div>
             </div>

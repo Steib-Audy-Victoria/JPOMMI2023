@@ -7,7 +7,7 @@ import LogoMMI from './LogoMMI.vue';
 
 </script>
 <template>
-    <header class="py-2 bg-Grey03 font-Montserrat font-semibold">
+    <div class="py-2 bg-Grey03 dark:bg-Grey01 dark:text-white font-Montserrat font-semibold">
         <!--Visiteur-->
         <!--v-else-->
         <div>
@@ -213,5 +213,5 @@ import LogoMMI from './LogoMMI.vue';
                 </nav>
             </div>
         </div>
-    </header>
+    </div>
 </template>

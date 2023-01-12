@@ -15,7 +15,7 @@
             </svg>
         </div>
         <div class="bg-Blue05 rounded-md py-1 px-3">
-            <p class="text-white">Suivre</p>
+            <p class="text-white font-Montserrat">Suivre</p>
         </div>
     </div>
 </template>

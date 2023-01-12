@@ -25,7 +25,7 @@ import BtnEvenement from '@/components/btnEvenement.vue';
     <!--Section 2 (S2) : Lien-->
     <section>
       <div class="flex justify-center items-center">
-        <h2 class="text-center text-xl md:text-2xl text-Blue01 font-semibold z-10">DÉCOUVREZ LA FORMATION MMI</h2>
+        <h2 class="text-center text-xl md:text-2xl text-Blue01 dark:text-white font-semibold font-Montserrat z-10">DÉCOUVREZ LA FORMATION MMI</h2>
         <div class="w-16 h-5 bg-Jaune -translate-x-11 translate-y-2 z-0"></div>
       </div>
       <div class="grid grid-cols-1 md:grid-cols-2 m-4 lg:m-16">
@@ -34,7 +34,7 @@ import BtnEvenement from '@/components/btnEvenement.vue';
           <RouterLink to="/ButMMI">
             <div
               class=" bg-[url('/public/HomeS2ButMMI.webp')] bg-no-repeat bg-cover h-96 flex justify-center items-center mb-4 md:mb-0">
-              <p class="text-white text-center text-xl md:text-2xl">BUT MMI</p>
+              <p class="text-white font-Montserrat font-medium text-center text-xl md:text-2xl">BUT MMI</p>
             </div>
           </RouterLink>
 
@@ -42,7 +42,7 @@ import BtnEvenement from '@/components/btnEvenement.vue';
           <RouterLink to="/FAQ">
             <div
               class="bg-[url('/public/HomeS2FAQ.webp')] bg-no-repeat bg-cover h-96 flex justify-center items-center mb-4 md:mb-0">
-              <p class="text-white text-center text-xl md:text-2xl">FAQ</p>
+              <p class="text-white font-Montserrat font-medium text-center text-xl md:text-2xl">FAQ</p>
             </div>
           </RouterLink>
         </div>
@@ -50,13 +50,13 @@ import BtnEvenement from '@/components/btnEvenement.vue';
           <RouterLink to="/Alternance">
             <div
               class="bg-[url('/public/HomeS2Alternance.webp')] bg-no-repeat bg-cover h-96 flex justify-center items-center mb-4 md:mb-0">
-              <p class="text-white text-center text-xl md:text-2xl">ALTERNANCE</p>
+              <p class="text-white font-Montserrat font-medium text-center text-xl md:text-2xl">ALTERNANCE</p>
             </div>
           </RouterLink>
           <RouterLink to="/International">
             <div
               class="bg-[url('/public/HomeS2internationnal.webp')] bg-no-repeat bg-cover h-96 flex justify-center items-center mb-4 md:mb-0">
-              <p class="text-white text-center text-xl md:text-2xl">INTERNATIONAL</p>
+              <p class="text-white font-Montserrat font-medium text-center text-xl md:text-2xl">INTERNATIONAL</p>
             </div>
           </RouterLink>
         </div>
@@ -66,10 +66,10 @@ import BtnEvenement from '@/components/btnEvenement.vue';
     <!--Section 3 (S3) : Événements de l'iut-->
     <section  class="pb-20">
       <div class="flex justify-center items-center">
-        <h2 class="text-center text-xl md:text-2xl text-Blue01 font-semibold z-10">ÉVÉNEMENTS DU DÉPARTEMENT</h2>
+        <h2 class="text-center text-xl md:text-2xl text-Blue01 font-Montserrat dark:text-white font-semibold z-10">ÉVÉNEMENTS DU DÉPARTEMENT</h2>
         <div class="w-16 h-5 bg-Jaune -translate-x-11 translate-y-2 z-0"></div>
       </div>
-      <p class="text-center my-6">Retrouvez ici tous les événements du département !</p>
+      <p class="text-center my-6 font-Montserrat">Retrouvez ici tous les événements du département !</p>
       <!-- <div class="flex justify-evenly py-24">
       <div class="flex flex-col justify-center items-center">
         <img src="/public/Logo_MMI_25_ANS.svg" alt="Logo de l'événement MMI 25 ans">
@@ -175,10 +175,10 @@ import BtnEvenement from '@/components/btnEvenement.vue';
     <!--Section 4 (S4) : Connexion prof / étudiants-->
     <section class="bg-[url('/public/HomeS4Connexion.webp')] bg-no-repeat bg-cover flex flex-col justify-center items-center pb-36">
       <LogoMMIHome class=" my-28" />
-      <h2 class="text-center text-xl md:text-2xl  font-semibold text-white my-6">VOUS ÊTES PROFESSEUR / ÉTUDIANT DU
+      <h2 class="text-center text-xl md:text-2xl font-Montserrat font-semibold text-white my-6">VOUS ÊTES PROFESSEUR / ÉTUDIANT DU
         DÉPARTEMENT ?</h2>
       <div class="flex flex-col lg:flex-row justify-around items-center gap-12 my-12  m-4 lg:m-0 lg:my-12">
-        <p class="text-white w-full lg:w-3/6 text-xl">Inscrivez-vous pour pouvoir accéder au planning de la journée et
+        <p class="text-white font-Montserrat w-full lg:w-3/6 text-xl">Inscrivez-vous pour pouvoir accéder au planning de la journée et
           vous attribuer une activité !</p>
         <btnConnexion></btnConnexion>
       </div>

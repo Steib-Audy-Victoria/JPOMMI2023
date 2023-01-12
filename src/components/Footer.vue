@@ -5,7 +5,7 @@ import youtube from './youtube.vue';
 import insta from './insta.vue';
 </script>
 <template>
-    <footer class="bg-Grey02 text-white font-Montserrat font-normal">
+    <div class="bg-Grey02 text-white font-Montserrat font-normal">
         <!-- Mobile -->
         <div class="grid grid-cols-2 lg:hidden py-2 bg-[url('/public/Curve_LineM.svg')] bg-no-repeat bg-right-bottom">
             <div class="flex ml-4">
@@ -56,5 +56,5 @@ import insta from './insta.vue';
 
             <div></div>
         </div>
-    </footer>
+    </div>
 </template>

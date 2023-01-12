@@ -6,13 +6,13 @@ import temoignageDroite from '@/components/temoignage_Droite.vue';
 
 <template>
     <div class="flex justify-center items-center py-12">
-        <h1 class="text-center text-xl md:text-2xl text-Blue01 font-semibold z-10">INTERNATIONAL</h1>
+        <h1 class="text-center text-xl md:text-2xl text-Blue01 font-Montserrat dark:text-white font-semibold z-10">INTERNATIONAL</h1>
         <div class="w-16 h-5 bg-Jaune -translate-x-11 translate-y-2 z-0"></div>
 
     </div>
     <!--Section 1 (S1): Un semestre au Canada -->
-    <section>
-        <h2 class=" text-xl md:text-2xl text-Blue01 font-semibold py-4 pl-10">Un semestre au Canada</h2>
+    <section class=" font-Montserrat">
+        <h2 class=" text-xl md:text-2xl text-Blue01  dark:text-white font-semibold py-4 pl-10">Un semestre au Canada</h2>
         <p class="pl-10">Au cours de la formation MMI, il sera possible de partir à l’étranger. Tout d’abord au Canada
             pour un semestre, un stage
             à l’étranger, mais aussi quelques jours au festival OFFF de Barcelone.</p>
@@ -38,11 +38,11 @@ import temoignageDroite from '@/components/temoignage_Droite.vue';
     <!--Section 2 (S2): Exemples de projets -->
     <section class="mt-12">
         <div class="flex justify-center items-center my-5">
-            <h2 class="text-center text-xl md:text-2xl text-Blue01 font-semibold z-10">Exemples de projets</h2>
+            <h2 class="text-center text-xl md:text-2xl text-Blue01 font-Montserrat dark:text-white font-semibold z-10">Exemples de projets</h2>
             <div class="w-16 h-5 bg-Jaune -translate-x-11 translate-y-2 z-0"></div>
         </div>
         <div>
-            <p class="px-20 py-2">Durant le semestre au Canada, vous allez pouvoir réaliser de nombreux projets, comme
+            <p class="px-20 font-Montserrat py-2">Durant le semestre au Canada, vous allez pouvoir réaliser de nombreux projets, comme
                 des couvertures de magazines.</p>
         </div>
         <div class="flex justify-center items-center">
@@ -54,7 +54,7 @@ import temoignageDroite from '@/components/temoignage_Droite.vue';
     <!--Section 3 (S3): La vie au Canada -->
     <section class="mt-12">
         <div class="flex justify-center items-center my-5">
-            <h2 class="text-center text-xl md:text-2xl text-Blue01 font-semibold z-10">La vie au Canada</h2>
+            <h2 class="text-center text-xl md:text-2xl text-Blue01 font-Montserrat dark:text-white font-semibold z-10">La vie au Canada</h2>
             <div class="w-16 h-5 bg-Jaune -translate-x-11 translate-y-2 z-0"></div>
         </div>
         <div class="flex flex-col justify-center items-center gap-3">
@@ -75,7 +75,7 @@ import temoignageDroite from '@/components/temoignage_Droite.vue';
     <section>
         <div class="bg-[url('/public/TemoignageLogo.webp')] py-12">
             <div class="flex justify-center items-center">
-                <h2 class="text-center text-xl md:text-2xl text-Blue01 font-semibold z-10">Témoignages de nos anciens
+                <h2 class="text-center text-xl md:text-2xl text-Blue01 font-Montserrat dark:text-white font-semibold z-10">Témoignages de nos anciens
                     étudiants</h2>
                 <div class="w-16 h-5 bg-Jaune -translate-x-11 translate-y-2 z-0"></div>
             </div>
@@ -89,14 +89,14 @@ import temoignageDroite from '@/components/temoignage_Droite.vue';
     </section> -->
 
     <!--Section 5 (S5): Festival OFFF à Barcelone -->
-    <section class="mt-12">
+    <section class="mt-12 pb-4">
         <div class="flex justify-center items-center my-5">
-            <h2 class="text-center text-xl md:text-2xl text-Blue01 font-semibold z-10">Quelques jours au festival OFFF à
+            <h2 class="text-center text-xl md:text-2xl text-Blue01 font-Montserrat dark:text-white font-semibold z-10">Quelques jours au festival OFFF à
                 Barcelone</h2>
             <div class="w-16 h-5 bg-Jaune -translate-x-11 translate-y-2 z-0"></div>
         </div>
         <div class="grid grid-cols-1 md:grid-cols-2">
-            <div class="ml-10">
+            <div class="ml-10 font-Montserrat">
                 <p class="px-10 pt-20">Durant les trois années au sein de MMI, il est possible de partir quelques jours
                     à Barcelone pour le festival OFFF. On
                     retrouve au sein de ce festival de nombreuses expositions de designers mais aussi des conférences de

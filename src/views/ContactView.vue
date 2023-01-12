@@ -83,7 +83,7 @@ onMounted(async () => {
     <!--Section 1 (S1) : Contact-->
     <section>
         <div class="flex justify-center items-center py-12">
-            <h1 class="text-center text-xl md:text-2xl text-Blue01 font-semibold z-10">CONTACT</h1>
+            <h1 class="text-center text-xl md:text-2xl text-Blue01 font-Montserrat dark:text-white font-semibold z-10">CONTACT</h1>
             <div class="w-16 h-5 bg-Jaune -translate-x-11 translate-y-2 z-0"></div>
         </div>
         <div>
@@ -96,7 +96,7 @@ onMounted(async () => {
                 <div class="flex justify-center lg:py-24 xl:py-36">
                     <div class="grid lg:grid-cols-3 w-10/12">
                         <div class="lg:col-span-2 bg-Gris pt-6">
-                            <p class="text-center">Si vous souhaitez nous contacter, veuillez remplir le formulaire
+                            <p class="text-center font-Montserrat dark:text-black">Si vous souhaitez nous contacter, veuillez remplir le formulaire
                                 ci-dessous</p>
                             <div class="flex flex-col gap-10 mx-4 pt-8">
                                 <input class="bg-Gris text-black border-b border-black " type="text" id="prenom"
@@ -113,18 +113,18 @@ onMounted(async () => {
                                     value="ENVOYER">
                             </div>
                         </div>
-                        <div class="bg-GrisF py-6">
+                        <div class="bg-GrisF font-Montserrat text-white text-center py-6">
                             <div class="grid grid-cols-2 place-items-center py-4">
                                 <Mail></Mail>
-                                <p class="text-white">but-mmi-montbéliard@univ-fcomte.fr</p>
+                                <p>but-mmi-montbéliard@univ-fcomte.fr</p>
                             </div>
                             <div class="grid grid-cols-2 place-items-center py-4">
                                 <Tel></Tel>
-                                <p class="text-white">03 81 99 47 34</p>
+                                <p>03 81 99 47 34</p>
                             </div>
                             <div class="grid grid-cols-2 place-items-center py-4">
                                 <Marker></Marker>
-                                <p class="text-white">4 Place Tharradin <br />
+                                <p>4 Place Tharradin <br />
                                     25200 Montbéliard</p>
                             </div>
                             <div class="flex justify-evenly py-4">
@@ -145,7 +145,7 @@ onMounted(async () => {
     <!--Section 2 (S2) : Map (OSM)-->
     <section>
         <div class="flex justify-center items-center py-12">
-            <h1 class="text-center text-xl md:text-2xl text-Blue01 font-semibold z-10">OÙ NOUS RETROUVER ?</h1>
+            <h1 class="text-center text-xl md:text-2xl text-Blue01 font-Montserrat dark:text-white font-semibold z-10">OÙ NOUS RETROUVER ?</h1>
             <div class="w-16 h-5 bg-Jaune -translate-x-11 translate-y-2 z-0"></div>
         </div>
         <div class="flex justify-center items-center">
@@ -159,16 +159,16 @@ onMounted(async () => {
     <!--Section 3 (S3) : Newsletter-->
     <section>
         <div class="flex justify-center items-center py-12">
-            <h1 class="text-center text-xl md:text-2xl text-Blue01 font-semibold z-10">NEWSLETTER</h1>
+            <h1 class="text-center text-xl md:text-2xl text-Blue01 font-Montserrat dark:text-white font-semibold z-10">NEWSLETTER</h1>
             <div class="w-16 h-5 bg-Jaune -translate-x-11 translate-y-2 z-0"></div>
         </div>
         <div>
-            <p class="text-center">Vous souhaitez être au courant des dernières actualités ?
+            <p class="text-center font-Montserrat">Vous souhaitez être au courant des dernières actualités ?
                 Inscrivez-vous à la newsletter !</p>
 
             <div class="flex justify-center items-center py-8">
-                <input class="border border-black p-2" type="email" placeholder="Votre email">
-                <input class="border border-black bg-Rouge p-2 text-white" type="submit" value="S’INSCRIRE">
+                <input class="border border-black p-2 font-Montserrat" type="email" placeholder="Votre email">
+                <input class="border border-black bg-Rouge p-2 text-white font-Montserrat" type="submit" value="S’INSCRIRE">
             </div>
         </div>
     </section>

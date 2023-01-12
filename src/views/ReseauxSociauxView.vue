@@ -6,7 +6,7 @@ import sound from "../components/iconSound.vue"
 
 <template>
     <div class="flex justify-center items-center py-12">
-        <h1 class="text-center text-xl md:text-2xl text-Blue01 font-semibold z-10">RÉSEAUX SOCIAUX</h1>
+        <h1 class="text-center font-Montserrat text-xl md:text-2xl text-Blue01 dark:text-white font-semibold z-10">RÉSEAUX SOCIAUX</h1>
         <div class="w-16 h-5 bg-Jaune -translate-x-11 translate-y-2 z-0"></div>
     </div>
     <section class="pb-10">
@@ -18,22 +18,22 @@ import sound from "../components/iconSound.vue"
         </div>
         <div>
             <div class=" flex items-center">
-                <p class="px-10 font-semibold">Suivez l’actualité MMI en continu</p>
+                <p class="px-10 font-semibold font-Montserrat">Suivez l’actualité MMI en continu</p>
                 <sound></sound>
             </div>
-            <p class="px-10 font-thin">Suivez nos posts en temps réels depuis notre site ou suivez-nous directement sur
+            <p class="px-10 font-thin font-Montserrat">Suivez nos posts en temps réels depuis notre site ou suivez-nous directement sur
                 nos réseaux sociaux.</p>
         </div>
     </section>
-    <section class="bg-Blue02">
-        <h2 class="px-10 py-4 font-semibold text-white">Actualités du département</h2>
-        <BtnSuivre></BtnSuivre>
+    <section class="bg-Blue02  pb-3">
+        <h2 class="px-10 py-4 font-semibold text-white font-Montserrat">Actualités du département</h2>
+        <BtnSuivre ></BtnSuivre>
         
     </section>
     <section>
         <div class="grid grid-cols-1 md:grid-cols-2 py-5">
-            <div class="px-6">
-                <h2 class=" text-lg md:text-xl text-Blue01 font-semibold py-4">La vie étudiante</h2>
+            <div class="px-6 font-Montserrat">
+                <h2 class=" text-xl md:text-3xl text-Blue01 dark:text-white font-semibold  py-4">La vie étudiante</h2>
                 <p>Que serait la vie étudiante sans ses associations!
                     Laura Demougeot, étudiante en 2ème année de DUT MMI, vous présente le BDE MMI (Bureau des étudiants)
                     dont elle est la
@@ -57,8 +57,8 @@ import sound from "../components/iconSound.vue"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen></iframe>
             </div>
-            <div class="px-6">
-                <h2 class=" text-lg md:text-xl text-Blue01 font-semibold py-4">Découvrez la WEB TV</h2>
+            <div class="px-6 font-Montserrat">
+                <h2 class=" text-xl md:text-3xl text-Blue01 dark:text-white font-semibold py-4">Découvrez la WEB TV</h2>
                 <p>Faites connaissance avec une partie de l'équipe de la Web TV de l'IUT qui vous présentera tout au
                     long de cette journée
                     (et samedi prochain) des émissions sur les formations de l'IUT et les projets étudiants!</p>
