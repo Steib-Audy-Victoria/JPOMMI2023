@@ -21,7 +21,7 @@
 
       let { data, error, status } = await supabase
         .from('profiles')
-        .select(`username, full_name, classe, avatar_url, statut`)
+        .select(`username, full_name, classe, stat, avatar_url`)
         .eq('id', user.id)
         .single()
 
@@ -31,7 +31,7 @@
         username.value = data.username
         full_name.value = data.full_name
         classe.value = data.classe
-        statut.value = data.statut
+        stat.value = data.stat
         avatar_url.value = data.avatar_url
       }
     } catch (error) {
@@ -51,7 +51,7 @@
         username: username.value,
         full_name: full_name.value,
         classe: classe.value,
-        statut: statut.value,
+        stat: stat.value,
         avatar_url: avatar_url.value,
         updated_at: new Date(),
       }
@@ -101,10 +101,10 @@
       <legend>Choisissez votre statut</legend>
       <div>
         <label for="Schoix1">Etudiant</label>
-        <input id="Schoix1" type="radio" name="statuts" checked v-model="statut" />
+        <input id="Schoix1" type="radio" name="stat" v-model="stat" />
 
         <label for="Schoix2">Professeur</label>
-        <input id="Schoix2" type="radio" name="statuts" v-model="statut" />
+        <input id="Schoix2" type="radio" name="stat" checked v-model="stat" />
       </div>
     </fieldset>
 
