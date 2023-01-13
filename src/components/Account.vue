@@ -21,7 +21,7 @@
 
       let { data, error, status } = await supabase
         .from('profiles')
-        .select(`username, full_name, classe , avatar_url`)
+        .select(`username, full_name, classe, avatar_url, statut`)
         .eq('id', user.id)
         .single()
 
@@ -29,7 +29,9 @@
 
       if (data) {
         username.value = data.username
-        website.value = data.website
+        full_name.value = data.full_name
+        classe.value = data.classe
+        statut.value = data.statut
         avatar_url.value = data.avatar_url
       }
     } catch (error) {
@@ -49,6 +51,7 @@
         username: username.value,
         full_name: full_name.value,
         classe: classe.value,
+        statut: statut.value,
         avatar_url: avatar_url.value,
         updated_at: new Date(),
       }
@@ -93,6 +96,13 @@
     <div>
       <label for="classe">Classe</label>
       <input id="classe" type="text" v-model="classe" />
+    </div>
+    <div>
+      <label for="statut">Etudiant</label>
+      <input id="statut" type="radio" v-model="statut" />
+
+      <label for="statut">Professeur</label>
+      <input id="statut" type="radio" v-model="statut" />
     </div>
 
     <div>
