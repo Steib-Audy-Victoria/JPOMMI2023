@@ -126,14 +126,18 @@ import btnPageG from '@/components/btnPageG.vue';
         </div>
     </section>
 
-    <!--Section 5 (S5) : Lien-->
+    <!--Section 5 (S5) : PROJET -->
     <section>
         <div class="flex justify-center items-center">
             <h3 class="text-center text-xl md:text-2xl text-Blue01 font-Montserrat dark:text-white font-semibold z-10">Des projets innovants</h3>
             <div class="w-16 h-5 bg-Jaune -translate-x-11 translate-y-2 z-0"></div>
         </div>
         <div>
-            
+            <p class="font-Montserrat text-base px-4 py-2">Élaboration d’une stratégie de communication pour le lancement d’un restaurant</p>
+            <div class="grid grid-cols-1 xl:grid-cols-2 place-items-center ">
+                <img class="p-2" src="/public/ComS5projet1.webp" alt="">
+                <img class="p-2" src="/public/ComS5projet2.webp" alt="">
+            </div>
         </div>
     </section>
 
