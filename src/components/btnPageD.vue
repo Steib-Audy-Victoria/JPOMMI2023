@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-Rouge rounded-xl w-96 h-32 p-2">
+    <div class="bg-Rouge hover:bg-Blue02 rounded-xl w-96 h-32 p-2">
         <p class="font-Montserrat text-white uppercase ">{{ text }}</p>
         <div class="flex justify-end items-end">
             <svg width="78" height="50" viewBox="0 0 78 50" fill="none" xmlns="http://www.w3.org/2000/svg">
