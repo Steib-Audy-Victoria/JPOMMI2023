@@ -138,14 +138,15 @@ import btnPageG from '@/components/btnPageG.vue';
         </div>
     </section>
 
-    <!--Section 5 (S5) : Lien-->
+    <!--Section 5 (S5) : Projet-->
     <section>
         <div class="flex justify-center items-center">
             <h3 class="text-center text-xl md:text-2xl text-Blue01 font-Montserrat dark:text-white font-semibold z-10">Des projets innovants</h3>
             <div class="w-16 h-5 bg-Jaune -translate-x-11 translate-y-2 z-0"></div>
         </div>
-        <div>
-            
+        <div class="flex flex-col lg:flex-row justify-center items-center gap-4 py-6">
+            <img src="DevS5projet1.webp" alt="">
+            <img src="DevS5projet2.webp" alt="">           
         </div>
     </section>
 
