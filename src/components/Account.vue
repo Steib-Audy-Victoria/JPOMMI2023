@@ -7,7 +7,9 @@
 
   const loading = ref(true)
   const username = ref('')
-  const website = ref('')
+  const full_name = ref('')
+  const classe = ref('')
+  const stat = ref('')
   const avatar_url = ref('')
 
   onMounted(() => {
