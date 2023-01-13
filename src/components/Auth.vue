@@ -12,7 +12,7 @@
         email: email.value,
       })
       if (error) throw error
-      alert('Check your email for the login link!')
+      alert('Vérifie ta boîte mail pour obtenir le lien de connexion')
     } catch (error) {
       if (error instanceof Error) {
         alert(error.message)

@@ -21,7 +21,7 @@
 
       let { data, error, status } = await supabase
         .from('profiles')
-        .select(`username, website, avatar_url`)
+        .select(`username, full_name, classe , avatar_url`)
         .eq('id', user.id)
         .single()
 
@@ -47,7 +47,8 @@
       const updates = {
         id: user.id,
         username: username.value,
-        website: website.value,
+        full_name: full_name.value,
+        classe: classe.value,
         avatar_url: avatar_url.value,
         updated_at: new Date(),
       }
@@ -82,12 +83,16 @@
       <input id="email" type="text" :value="session.user.email" disabled />
     </div>
     <div>
-      <label for="username">Name</label>
+      <label for="username">Prénom</label>
       <input id="username" type="text" v-model="username" />
     </div>
     <div>
-      <label for="website">Website</label>
-      <input id="website" type="website" v-model="website" />
+      <label for="full_name">Nom</label>
+      <input id="full_name" type="text" v-model="full_name" />
+    </div>
+    <div>
+      <label for="classe">Classe</label>
+      <input id="classe" type="text" v-model="classe" />
     </div>
 
     <div>
