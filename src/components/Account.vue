@@ -97,13 +97,16 @@
       <label for="classe">Classe</label>
       <input id="classe" type="text" v-model="classe" />
     </div>
-    <div>
-      <label for="statut">Etudiant</label>
-      <input id="statut" type="radio" v-model="statut" />
+    <fieldset>
+      <legend>Choisissez votre statut</legend>
+      <div>
+        <label for="Schoix1">Etudiant</label>
+        <input id="Schoix1" type="radio" name="statuts" checked v-model="statut" />
 
-      <label for="statut">Professeur</label>
-      <input id="statut" type="radio" v-model="statut" />
-    </div>
+        <label for="Schoix2">Professeur</label>
+        <input id="Schoix2" type="radio" name="statuts" v-model="statut" />
+      </div>
+    </fieldset>
 
     <div>
       <input
