@@ -182,7 +182,9 @@ import BtnEvenement from '@/components/btnEvenement.vue';
       <div class="flex flex-col lg:flex-row justify-around items-center gap-12 my-12  m-4 lg:m-0 lg:my-12">
         <p class="text-white font-Montserrat w-full lg:w-3/6 text-xl">Inscrivez-vous pour pouvoir accéder au planning de la journée et
           vous attribuer une activité !</p>
-        <btnConnexion></btnConnexion>
+
+        <RouterLink to="/Connexion">
+        <btnConnexion></btnConnexion></RouterLink>
       </div>
     </section>
   </div>
