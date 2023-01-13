@@ -3,6 +3,8 @@ import temoignageGauche from '@/components/temoignage_Gauche.vue';
 import temoignageDroite from '@/components/temoignage_Droite.vue';
 import imgFabienCasperot from '/public/DevS6Fabien_Casperot.webp';
 import imgBenjaminTruchi from '/public/DevS6Benjamin_Truchi.webp';
+import btnPageD from '@/components/btnPageD.vue';
+import btnPageG from '@/components/btnPageG.vue';
 </script>
 
 <template>

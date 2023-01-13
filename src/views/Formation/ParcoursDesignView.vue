@@ -3,8 +3,8 @@ import temoignageGauche from '@/components/temoignage_Gauche.vue';
 import temoignageDroite from '@/components/temoignage_Droite.vue';
 import imgJulienPaquier from '/public/DesignS6Julien_Paquier.webp';
 import imgAloisBolou from '/public/DesignS6Alois_Bolou.webp';
-import btnPageD from '@/components/btnPageD.vue'
-import btnPageG from '@/components/btnPageG.vue'
+import btnPageD from '@/components/btnPageD.vue';
+import btnPageG from '@/components/btnPageG.vue';
 
 </script>
 

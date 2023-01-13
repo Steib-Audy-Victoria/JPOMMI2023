@@ -1,7 +1,9 @@
 <script setup>
 import temoignageGauche from '@/components/temoignage_Gauche.vue';
 import temoignageDroite from '@/components/temoignage_Droite.vue';
-import imgLauraBrager from '/public/ComS6Laura_Brager.webp'
+import imgLauraBrager from '/public/ComS6Laura_Brager.webp';
+import btnPageD from '@/components/btnPageD.vue';
+import btnPageG from '@/components/btnPageG.vue';
 
 </script>
 
