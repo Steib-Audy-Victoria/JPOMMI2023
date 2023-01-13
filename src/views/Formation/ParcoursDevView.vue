@@ -145,8 +145,8 @@ import btnPageG from '@/components/btnPageG.vue';
             <div class="w-16 h-5 bg-Jaune -translate-x-11 translate-y-2 z-0"></div>
         </div>
         <div class="flex flex-col lg:flex-row justify-center items-center gap-4 py-6">
-            <img src="DevS5projet1.webp" alt="">
-            <img src="DevS5projet2.webp" alt="">           
+            <img src="/public/DevS5projet1.webp" alt="">
+            <img src="/public/DevS5projet2.webp" alt="">           
         </div>
     </section>
 
