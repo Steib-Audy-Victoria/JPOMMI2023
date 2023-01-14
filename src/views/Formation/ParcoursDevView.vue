@@ -9,11 +9,11 @@ import btnPageG from '@/components/btnPageG.vue';
 
 <template>
     <div class="py-12">
-        <h1 class="text-center text-xl md:text-2xl text-Blue01 font-Montserrat dark:text-white font-semibold z-10">BUT MMI</h1>
+        <h1 class="text-center text-2xl text-Blue01 font-Montserrat dark:text-white font-semibold z-10">BUT MMI</h1>
         <div class="flex justify-center items-center ">
-            <h2 class="text-center text-xl md:text-2xl text-Blue01 font-Montserrat dark:text-white font-semibold z-10">
+            <h2 class="text-center text-2xl text-Blue01 font-Montserrat dark:text-white font-semibold z-10">
                 PARCOURS DÉVELOPPEMENT WEB ET DISPOSITIFS INTERACTIFS</h2>
-            <div class="w-16 h-5 bg-Jaune -translate-x-11 translate-y-2 z-0"></div>
+            <div class="hidden md:block w-16 h-5 bg-Jaune -translate-x-11 translate-y-2 z-0"></div>
         </div>
     </div>
 
@@ -102,7 +102,7 @@ import btnPageG from '@/components/btnPageG.vue';
                         class="font-semibold">primordiale</span> dans un domaine en
                     constante évolution.</p>
             </div>
-            <div class="flex justify-center items-center ">
+            <div class="flex justify-center items-center py-8">
                 <div class="bg-Jaune  z-0">
                     <img class="z-10 translate-x-5 -translate-y-5" src="/public/DevS3.webp" alt="">
                 </div>
@@ -142,7 +142,7 @@ import btnPageG from '@/components/btnPageG.vue';
     <section>
         <div class="flex justify-center items-center">
             <h3 class="text-center text-xl md:text-2xl text-Blue01 font-Montserrat dark:text-white font-semibold z-10">Des projets innovants</h3>
-            <div class="w-16 h-5 bg-Jaune -translate-x-11 translate-y-2 z-0"></div>
+            <div class="hidden md:block w-16 h-5 bg-Jaune -translate-x-11 translate-y-2 z-0"></div>
         </div>
         <div class="flex flex-col lg:flex-row justify-center items-center gap-4 py-6">
             <img src="/public/DevS5projet1.webp" alt="">
@@ -156,10 +156,10 @@ import btnPageG from '@/components/btnPageG.vue';
             <div class="flex justify-center items-center">
                 <h3 class="text-center text-xl md:text-2xl text-Blue01 font-Montserrat dark:text-white font-semibold z-10">Témoignages de nos anciens
                     étudiants</h3>
-                <div class="w-16 h-5 bg-Jaune -translate-x-11 translate-y-2 z-0"></div>
+                <div class="hidden md:block w-16 h-5 bg-Jaune -translate-x-11 translate-y-2 z-0"></div>
             </div>
             <div>
-                <temoignageGauche :image="imgFabienCasperot" nom="Fabien Casperot"
+                <temoignageGauche class="my-4" :image="imgFabienCasperot" nom="Fabien Casperot"
                     avis="Avant MMI, je faisais des programmes Python et des mini-jeux, et je me suis vite senti dans mon élément, c’est ce qui m’a poussé à venir en MMI suite à l’obtention de mon baccalauréat.
                                     MMI ont été mes meilleures années d’études. Les cours et les projets étaient assez variés, et le programme est très complet. 
                                     Actuellement, je suis encore étudiant en Master 2 Produits et Services Multimédia (PSM) à Montbéliard." />
@@ -171,12 +171,12 @@ import btnPageG from '@/components/btnPageG.vue';
 
     <!--Bouton passage des pages parcours-->
 
-    <div class="flex justify-between items-center p-10">
+    <div class="flex flex-col lg:flex-row justify-between items-center p-10">
         <RouterLink to="/Design">
-            <btnPageG text="DÉCOUVREZ LE PARCOURS CRÉATION NUMÉRIQUE" />
+            <btnPageG class="my-2 lg:my-0" text="DÉCOUVREZ LE PARCOURS CRÉATION NUMÉRIQUE" />
         </RouterLink>
         <RouterLink to="/Com">
-            <btnPageD text="DÉCOUVREZ LE PARCOURS STRATÉGIE DE COMMUNICATION NUMÉRIQUE ET DESIGN D’EXPÉRIENCE" />
+            <btnPageD class="my-2 lg:my-0" text="DÉCOUVREZ LE PARCOURS STRATÉGIE DE COMMUNICATION NUMÉRIQUE ET DESIGN D’EXPÉRIENCE" />
         </RouterLink>
     </div>
 </template>
