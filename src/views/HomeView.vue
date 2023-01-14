@@ -121,7 +121,7 @@ import BtnEvenement from '@/components/btnEvenement.vue';
               <a href="#postMMI25ans4" class="btn btn-xs btn-circle"></a>
             </div>
             <div>
-              <a href="https://www.instagram.com/p/CjAXI6KsGag/?utm_source=ig_web_button_share_sheet" target="_blank">
+              <a href="https://www.instagram.com/mmi25ans/" target="_blank">
               <BtnEvenement nom="MMI 25 ANS"></BtnEvenement></a>
             </div>
           </div>
@@ -166,7 +166,7 @@ import BtnEvenement from '@/components/btnEvenement.vue';
               <a href="#postDéfi24h4" class="btn btn-xs btn-circle"></a>
             </div>
             <div>
-              <a href="https://www.instagram.com/p/ClBp1vkNtui/?utm_source=ig_web_copy_link" target="_blank">
+              <a href="https://www.instagram.com/defi24h_mmi/" target="_blank">
               <BtnEvenement nom="DÉFI 24H"></BtnEvenement></a>
             </div>
           </div>

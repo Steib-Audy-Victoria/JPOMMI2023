@@ -1,7 +1,9 @@
-<script setup>
+<script  setup>
 import BtnSuivre from "../components/btnSuivre.vue";
 import BtnSuivre2 from "../components/btnSuivre2.vue";
 import sound from "../components/iconSound.vue"
+
+
 </script>
 
 <template>
@@ -9,6 +11,7 @@ import sound from "../components/iconSound.vue"
         <h1 class="text-center font-Montserrat text-2xl text-Blue01 dark:text-white font-semibold z-10">RÉSEAUX SOCIAUX</h1>
         <div class="hidden lg:block w-16 h-5 bg-Jaune -translate-x-11 translate-y-2 z-0"></div>
     </div>
+    <!--Actualités-->
     <section class="pb-10">
         <div class="flex justify-center items-center mb-6">
             <iframe width="1400" height="750" src="https://www.youtube.com/embed/6g8xtzzi6aY"
@@ -25,11 +28,20 @@ import sound from "../components/iconSound.vue"
                 nos réseaux sociaux.</p>
         </div>
     </section>
+    <!--Actualités du département - Instagram-->
     <section class="bg-Blue02  pb-3">
         <h2 class="px-10 py-4 font-semibold text-white font-Montserrat">Actualités du département</h2>
-        <BtnSuivre ></BtnSuivre>
-        
+        <div>
+            <div>
+
+                
+            </div>
+            
+        </div>
+        <a href="https://www.instagram.com/mmi_montbeliard/" target="_blank">
+        <BtnSuivre ></BtnSuivre></a>
     </section>
+    <!--Youtube-->
     <section>
         <div class="grid grid-cols-1 md:grid-cols-2 py-5">
             <div class="px-6 font-Montserrat">
@@ -63,7 +75,8 @@ import sound from "../components/iconSound.vue"
                     long de cette journée
                     (et samedi prochain) des émissions sur les formations de l'IUT et les projets étudiants!</p>
                 <div class="mt-4 flex justify-end">
-                    <BtnSuivre2></BtnSuivre2>
+                    <a href="https://www.youtube.com/@comIUTBM" target="_blank">
+                    <BtnSuivre2></BtnSuivre2></a>
                 </div>
             </div>
         </div>
