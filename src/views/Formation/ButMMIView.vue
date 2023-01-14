@@ -1,7 +1,7 @@
 <template>
     <div class="bg-[url('/public/HomeLine.svg')]">
         <div class="flex justify-center items-center py-12">
-            <h1 class="text-center text-xl md:text-2xl text-Blue01 font-Montserrat dark:text-white font-semibold z-10">BUT MMI</h1>
+            <h1 class="text-center text-2xl text-Blue01 font-Montserrat dark:text-white font-semibold z-10">BUT MMI</h1>
             <div class="w-16 h-5 bg-Jaune -translate-x-11 translate-y-2 z-0"></div>
         </div>
 
@@ -35,7 +35,7 @@
                             <RouterLink to="/alternance">Alternance</RouterLink>
                         </span> de notre site.</p>
                 </div>
-                <div class="flex justify-center items-center">
+                <div class="flex justify-center items-center py-6">
                     <div class="bg-Jaune  z-0">
                         <img class="z-10 -translate-x-8 -translate-y-4 " src="/public/ButMMIS1.webp" alt="">
                     </div>
@@ -161,7 +161,7 @@
         <section class="py-20">
             <div class="flex justify-center items-center pb-12">
                 <h1 class="text-center text-xl md:text-2xl text-Blue01 font-Montserrat dark:text-white font-semibold z-10">Découvrez nos pôles MMI</h1>
-                <div class="w-16 h-5 bg-Jaune -translate-x-11 translate-y-2 z-0"></div>
+                <div class="hidden md:block w-16 h-5 bg-Jaune -translate-x-11 translate-y-2 z-0"></div>
             </div>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
 
