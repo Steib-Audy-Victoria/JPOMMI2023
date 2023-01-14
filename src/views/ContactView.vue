@@ -83,7 +83,7 @@ onMounted(async () => {
     <!--Section 1 (S1) : Contact-->
     <section>
         <div class="flex justify-center items-center py-12">
-            <h1 class="text-center text-xl md:text-2xl text-Blue01 font-Montserrat dark:text-white font-semibold z-10">CONTACT</h1>
+            <h1 class="text-center text-2xl text-Blue01 font-Montserrat dark:text-white font-semibold z-10">CONTACT</h1>
             <div class="w-16 h-5 bg-Jaune -translate-x-11 translate-y-2 z-0"></div>
         </div>
         <div>
@@ -145,7 +145,7 @@ onMounted(async () => {
     <!--Section 2 (S2) : Map (OSM)-->
     <section>
         <div class="flex justify-center items-center py-12">
-            <h1 class="text-center text-xl md:text-2xl text-Blue01 font-Montserrat dark:text-white font-semibold z-10">OÙ NOUS RETROUVER ?</h1>
+            <h1 class="text-center text-2xl text-Blue01 font-Montserrat dark:text-white font-semibold z-10">OÙ NOUS RETROUVER ?</h1>
             <div class="w-16 h-5 bg-Jaune -translate-x-11 translate-y-2 z-0"></div>
         </div>
         <div class="flex justify-center items-center">
@@ -159,7 +159,7 @@ onMounted(async () => {
     <!--Section 3 (S3) : Newsletter-->
     <section>
         <div class="flex justify-center items-center py-12">
-            <h1 class="text-center text-xl md:text-2xl text-Blue01 font-Montserrat dark:text-white font-semibold z-10">NEWSLETTER</h1>
+            <h1 class="text-center text-2xl text-Blue01 font-Montserrat dark:text-white font-semibold z-10">NEWSLETTER</h1>
             <div class="w-16 h-5 bg-Jaune -translate-x-11 translate-y-2 z-0"></div>
         </div>
         <div>
