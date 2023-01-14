@@ -13,7 +13,7 @@ import { ChevronUpIcon } from '@heroicons/vue/20/solid'
             <!--Question 1-->
             <Disclosure v-slot="{ open }">
                 <DisclosureButton
-                    class="flex w-full justify-between rounded-lg bg-gray-100 px-4 py-2 text-left text-sm font-medium font-Montserrat text-black  hover:bg-gray-300 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
+                    class="flex w-full justify-between rounded-lg  border-b border-black my-2 bg-gray-100 px-4 py-2 text-left text-sm font-medium font-Montserrat text-black  hover:bg-gray-300 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
                     <span>Qu’est-ce que le BUT MMI ?</span>
                     <ChevronUpIcon :class="open ? 'rotate-180 transform' : ''" class="h-5 w-5 text-black" />
                 </DisclosureButton>
@@ -32,7 +32,7 @@ import { ChevronUpIcon } from '@heroicons/vue/20/solid'
             <!--Question 2-->
             <Disclosure v-slot="{ open }">
                 <DisclosureButton
-                    class="flex w-full justify-between rounded-lg bg-gray-100 px-4 py-2 text-left text-sm font-medium font-Montserrat text-black hover:bg-gray-300 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
+                    class="flex w-full justify-between rounded-lg border-b border-black my-2 bg-gray-100 px-4 py-2 text-left text-sm font-medium font-Montserrat text-black hover:bg-gray-300 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
                     <span>Quelles sont les matières enseignées dans le BUT MMI ?</span>
                     <ChevronUpIcon :class="open ? 'rotate-180 transform' : ''" class="h-5 w-5 text-black" />
                 </DisclosureButton>
@@ -47,7 +47,7 @@ import { ChevronUpIcon } from '@heroicons/vue/20/solid'
             <!--Question 3-->
             <Disclosure v-slot="{ open }">
                 <DisclosureButton
-                    class="flex w-full justify-between rounded-lg bg-gray-100 px-4 py-2 text-left text-sm font-medium font-Montserrat text-black hover:bg-gray-300 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
+                    class="flex w-full justify-between rounded-lg border-b border-black my-2 bg-gray-100 px-4 py-2 text-left text-sm font-medium font-Montserrat text-black hover:bg-gray-300 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
                     <span>Quel est le volume horaire de la formation ?</span>
                     <ChevronUpIcon :class="open ? 'rotate-180 transform' : ''" class="h-5 w-5 text-black" />
                 </DisclosureButton>
@@ -66,7 +66,7 @@ import { ChevronUpIcon } from '@heroicons/vue/20/solid'
             <!--Question 4-->
             <Disclosure v-slot="{ open }">
                 <DisclosureButton
-                    class="flex w-full justify-between rounded-lg bg-gray-100 px-4 py-2 text-left text-sm font-medium font-Montserrat text-black hover:bg-gray-300 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
+                    class="flex w-full justify-between rounded-lg border-b border-black my-2 bg-gray-100 px-4 py-2 text-left text-sm font-medium font-Montserrat text-black hover:bg-gray-300 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
                     <span>Quels sont les outils utilisés durant la formation ?</span>
                     <ChevronUpIcon :class="open ? 'rotate-180 transform' : ''" class="h-5 w-5 text-black" />
                 </DisclosureButton>
@@ -83,7 +83,7 @@ import { ChevronUpIcon } from '@heroicons/vue/20/solid'
             <!--Question 5-->
             <Disclosure v-slot="{ open }">
                 <DisclosureButton
-                    class="flex w-full justify-between rounded-lg bg-gray-100 px-4 py-2 text-left text-sm font-medium font-Montserrat text-black hover:bg-gray-300 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
+                    class="flex w-full justify-between rounded-lg border-b border-black my-2 bg-gray-100 px-4 py-2 text-left text-sm font-medium font-Montserrat text-black hover:bg-gray-300 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
                     <span>Quelles connaissances sont nécessaires pour pouvoir entrer dans la formation ?</span>
                     <ChevronUpIcon :class="open ? 'rotate-180 transform' : ''" class="h-5 w-5 text-black" />
                 </DisclosureButton>
@@ -100,7 +100,7 @@ import { ChevronUpIcon } from '@heroicons/vue/20/solid'
             <!--Question 6-->
             <Disclosure v-slot="{ open }">
                 <DisclosureButton
-                    class="flex w-full justify-between rounded-lg bg-gray-100 px-4 py-2 text-left text-sm font-medium font-Montserrat text-black hover:bg-gray-300 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
+                    class="flex w-full justify-between rounded-lg border-b border-black my-2 bg-gray-100 px-4 py-2 text-left text-sm font-medium font-Montserrat text-black hover:bg-gray-300 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
                     <span>Quels sont les débouchés possibles après cette formation ?</span>
                     <ChevronUpIcon :class="open ? 'rotate-180 transform' : ''" class="h-5 w-5 text-black" />
                 </DisclosureButton>
@@ -119,7 +119,7 @@ import { ChevronUpIcon } from '@heroicons/vue/20/solid'
             <!--Question 7-->
             <Disclosure v-slot="{ open }">
                 <DisclosureButton
-                    class="flex w-full justify-between rounded-lg bg-gray-100 px-4 py-2 text-left text-sm font-medium font-Montserrat text-black hover:bg-gray-300 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
+                    class="flex w-full justify-between rounded-lg border-b border-black my-2 bg-gray-100 px-4 py-2 text-left text-sm font-medium font-Montserrat text-black hover:bg-gray-300 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
                     <span>Quand est-ce que la spécialisation intervient dans la formation ?</span>
                     <ChevronUpIcon :class="open ? 'rotate-180 transform' : ''" class="h-5 w-5 text-black" />
                 </DisclosureButton>
@@ -136,7 +136,7 @@ import { ChevronUpIcon } from '@heroicons/vue/20/solid'
             <!--Question 8-->
             <Disclosure v-slot="{ open }">
                 <DisclosureButton
-                    class="flex w-full justify-between rounded-lg bg-gray-100 px-4 py-2 text-left text-sm font-medium font-Montserrat text-black hover:bg-gray-300 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
+                    class="flex w-full justify-between rounded-lg border-b border-black my-2 bg-gray-100 px-4 py-2 text-left text-sm font-medium font-Montserrat text-black hover:bg-gray-300 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
                     <span>Quand aura lieu la rentrée ?</span>
                     <ChevronUpIcon :class="open ? 'rotate-180 transform' : ''" class="h-5 w-5 text-black" />
                 </DisclosureButton>
@@ -149,7 +149,7 @@ import { ChevronUpIcon } from '@heroicons/vue/20/solid'
             <!--Question 9-->
             <Disclosure v-slot="{ open }">
                 <DisclosureButton
-                    class="flex w-full justify-between rounded-lg bg-gray-100 px-4 py-2 text-left text-sm font-medium font-Montserrat text-black hover:bg-gray-300 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
+                    class="flex w-full justify-between rounded-lg border-b border-black my-2 bg-gray-100 px-4 py-2 text-left text-sm font-medium font-Montserrat text-black hover:bg-gray-300 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
                     <span>Que vais-je apprendre durant la formation ?</span>
                     <ChevronUpIcon :class="open ? 'rotate-180 transform' : ''" class="h-5 w-5 text-black" />
                 </DisclosureButton>
@@ -162,7 +162,7 @@ import { ChevronUpIcon } from '@heroicons/vue/20/solid'
             <!--Question 10-->
             <Disclosure v-slot="{ open }">
                 <DisclosureButton
-                    class="flex w-full justify-between rounded-lg bg-gray-100 px-4 py-2 text-left text-sm font-medium font-Montserrat text-black hover:bg-gray-300 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
+                    class="flex w-full justify-between rounded-lg border-b border-black my-2 bg-gray-100 px-4 py-2 text-left text-sm font-medium font-Montserrat text-black hover:bg-gray-300 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
                     <span>Est-ce qu’il est possible de réaliser une alternance ?</span>
                     <ChevronUpIcon :class="open ? 'rotate-180 transform' : ''" class="h-5 w-5 text-black" />
                 </DisclosureButton>
@@ -177,7 +177,7 @@ import { ChevronUpIcon } from '@heroicons/vue/20/solid'
             <!--Question 11-->
             <Disclosure v-slot="{ open }">
                 <DisclosureButton
-                    class="flex w-full justify-between rounded-lg bg-gray-100 px-4 py-2 text-left text-sm font-medium font-Montserrat text-black hover:bg-gray-300 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
+                    class="flex w-full justify-between rounded-lg border-b border-black my-2 bg-gray-100 px-4 py-2 text-left text-sm font-medium font-Montserrat text-black hover:bg-gray-300 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
                     <span>Qu’est-ce qui varie entre les différents volets de la formation (communication / design /
                         développement) ?</span>
                     <ChevronUpIcon :class="open ? 'rotate-180 transform' : ''" class="h-5 w-5 text-black" />
@@ -208,7 +208,7 @@ import { ChevronUpIcon } from '@heroicons/vue/20/solid'
             <!--Question 12-->
             <Disclosure v-slot="{ open }">
                 <DisclosureButton
-                    class="flex w-full justify-between rounded-lg bg-gray-100 px-4 py-2 text-left text-sm font-medium font-Montserrat text-black hover:bg-gray-300 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
+                    class="flex w-full justify-between rounded-lg border-b border-black my-2 bg-gray-100 px-4 py-2 text-left text-sm font-medium font-Montserrat text-black hover:bg-gray-300 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
                     <span>Que faire pour me préparer à la formation ?</span>
                     <ChevronUpIcon :class="open ? 'rotate-180 transform' : ''" class="h-5 w-5 text-black" />
                 </DisclosureButton>
@@ -225,7 +225,7 @@ import { ChevronUpIcon } from '@heroicons/vue/20/solid'
             <!--Question 13-->
             <Disclosure v-slot="{ open }">
                 <DisclosureButton
-                    class="flex w-full justify-between rounded-lg bg-gray-100 px-4 py-2 text-left text-sm font-medium font-Montserrat text-black hover:bg-gray-300 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
+                    class="flex w-full justify-between rounded-lg border-b border-black my-2 bg-gray-100 px-4 py-2 text-left text-sm font-medium font-Montserrat text-black hover:bg-gray-300 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
                     <span>Quel volet occupe le plus de place dans la formation ?</span>
                     <ChevronUpIcon :class="open ? 'rotate-180 transform' : ''" class="h-5 w-5 text-black" />
                 </DisclosureButton>
