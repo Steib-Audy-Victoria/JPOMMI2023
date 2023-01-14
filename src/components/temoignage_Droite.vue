@@ -1,6 +1,6 @@
 <template>
-    <div class="flex justify-around items-center">
-        <div class="w-2/3 bg-Blue04 rounded-l-3xl rounded-br-3xl">
+    <div class="flex flex-col lg:flex-row justify-around items-center">
+        <div class="mx-4 lg:mx-0 lg:w-2/3 bg-Blue04 rounded-l-3xl rounded-br-3xl">
             <p class="text-white font-Montserrat p-4">{{avis}}</p>
         </div>
         <div class="flex flex-col justify-center items-center">

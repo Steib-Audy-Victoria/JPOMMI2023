@@ -9,11 +9,11 @@ import btnPageG from '@/components/btnPageG.vue';
 
 <template>
     <div class="py-12">
-        <h1 class="text-center text-xl md:text-2xl text-Blue01 font-Montserrat dark:text-white font-semibold z-10">BUT MMI</h1>
+        <h1 class="text-center text-2xl text-Blue01 font-Montserrat dark:text-white font-semibold z-10">BUT MMI</h1>
         <div class="flex justify-center items-center ">
-            <h2 class="text-center text-xl md:text-2xl text-Blue01 font-Montserrat dark:text-white font-semibold z-10">PARCOURS STRATÉGIE DE
+            <h2 class="text-center text-2xl text-Blue01 font-Montserrat dark:text-white font-semibold z-10">PARCOURS STRATÉGIE DE
                 COMMUNICATION NUMÉRIQUE ET DESIGN D’EXPÉRIENCE</h2>
-            <div class="w-16 h-5 bg-Jaune -translate-x-11 translate-y-2 z-0"></div>
+            <div class="hidden md:block w-16 h-5 bg-Jaune -translate-x-11 translate-y-2 z-0"></div>
         </div>
     </div>
 
@@ -90,7 +90,7 @@ import btnPageG from '@/components/btnPageG.vue';
                 <p class="px-10">Les équipes de communication sont donc un <span class="font-semibold">pilier
                         immuable</span> des entreprises avec lesquelles chaque département collabore.</p>
             </div>
-            <div class="flex justify-center items-center ">
+            <div class="flex justify-center items-center py-8">
                 <div class="bg-Jaune  z-0">
                     <img class="z-10 translate-x-5 -translate-y-5" src="/public/ComS3.webp" alt="">
                 </div>
@@ -130,7 +130,7 @@ import btnPageG from '@/components/btnPageG.vue';
     <section>
         <div class="flex justify-center items-center">
             <h3 class="text-center text-xl md:text-2xl text-Blue01 font-Montserrat dark:text-white font-semibold z-10">Des projets innovants</h3>
-            <div class="w-16 h-5 bg-Jaune -translate-x-11 translate-y-2 z-0"></div>
+            <div class="hidden md:block w-16 h-5 bg-Jaune -translate-x-11 translate-y-2 z-0"></div>
         </div>
         <div>
             <p class="font-Montserrat text-base px-4 py-2">Élaboration d’une stratégie de communication pour le lancement d’un restaurant</p>
@@ -144,10 +144,10 @@ import btnPageG from '@/components/btnPageG.vue';
     <!--Section 6 (S6) : Témoignages-->
     <section>
         <div class="bg-[url('/public/TemoignageLogo.webp')] py-12">
-            <div class="flex justify-center items-center">
+            <div class="flex justify-center items-center pb-4">
                 <h3 class="text-center text-xl md:text-2xl text-Blue01 font-Montserrat dark:text-white font-semibold z-10">Témoignages de nos anciens
                     étudiants</h3>
-                <div class="w-16 h-5 bg-Jaune -translate-x-11 translate-y-2 z-0"></div>
+                <div class="hidden md:block w-16 h-5 bg-Jaune -translate-x-11 translate-y-2 z-0"></div>
             </div>
             <div>
                 <temoignageGauche :image="imgLauraBrager" nom="Laura Brager"
@@ -159,12 +159,12 @@ import btnPageG from '@/components/btnPageG.vue';
 
     <!--Bouton passage des pages parcours-->
 
-    <div class="flex justify-between items-center p-10">
+    <div class="flex flex-col lg:flex-row justify-between items-center p-10">
         <RouterLink to="/Dev">
-            <btnPageG text="DÉCOUVREZ LE PARCOURS DÉVELOPPEMENT WEB ET DISPOSITIFS INTERACTIFS" />
+            <btnPageG class="my-2 lg:my-0" text="DÉCOUVREZ LE PARCOURS DÉVELOPPEMENT WEB ET DISPOSITIFS INTERACTIFS" />
         </RouterLink>
         <RouterLink to="/Design">
-            <btnPageD text="DÉCOUVREZ LE PARCOURS CRÉATION NUMÉRIQUE" />
+            <btnPageD class="my-2 lg:my-0" text="DÉCOUVREZ LE PARCOURS CRÉATION NUMÉRIQUE" />
         </RouterLink>
     </div>
 </template>
