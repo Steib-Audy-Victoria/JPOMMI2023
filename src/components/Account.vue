@@ -86,30 +86,33 @@
     <form class="flex justify-center items-center " @submit.prevent="updateProfile">
       <div class="py-6 w-screen lg:w-1/2 lg:bg-white flex flex-col justify-center items-center">
         <h1 class=" text-Blue02 font-medium font-Montserrat text-xl">Détail du compte</h1>
-        <div class="py-2">
+        <div class="py-2 flex flex-row gap-2">
           <label for="email">Email</label>
           <input class="border-b border-black w-80" id="email" type="text" :value="session.user.email" disabled />
         </div>
-        <div class="py-2">
+        <div class="py-2 flex flex-row gap-2">
           <label for="username">Prénom</label>
           <input class="border-b border-black w-80" id="username" type="text" v-model="username" />
         </div>
-        <div class="py-2">
+        <div class="py-2 flex flex-row gap-2">
           <label for="full_name">Nom</label>
           <input class="border-b border-black w-80" id="full_name" type="text" v-model="full_name" />
         </div>
-        <div class="py-2">
+        <div class="py-2 flex flex-row gap-2">
           <label for="classe">Classe</label>
           <input class="border-b border-black w-80" id="classe" type="text" v-model="classe" />
         </div>
         <fieldset class="py-2">
           <legend>Choisissez votre statut</legend>
-          <div>
-            <label for="Schoix1">Etudiant</label>
-            <input id="Schoix1" type="radio" name="stat" v-model="stat" />
-
-            <label for="Schoix2">Professeur</label>
-            <input id="Schoix2" type="radio" name="stat" checked v-model="stat" />
+          <div  class="flex flex-row gap-2">
+            <div>
+              <label for="Schoix1">Etudiant</label>
+              <input id="Schoix1" type="radio" name="stat" v-model="stat" />
+            </div>
+            <div>
+              <label for="Schoix2">Professeur</label>
+              <input id="Schoix2" type="radio" name="stat" checked v-model="stat" />
+            </div>
           </div>
         </fieldset>
         <div class="py-2">
@@ -121,7 +124,7 @@
           />
         </div>
         <div class="py-2">
-          <button class="button block" @click="signOut" :disabled="loading">Sign Out</button>
+          <button class="button block" @click="signOut" :disabled="loading">Déconnexion</button>
         </div>
       </div>
     </form>
