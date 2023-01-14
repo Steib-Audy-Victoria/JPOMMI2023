@@ -14,7 +14,6 @@ import ContactView from '../views/ContactView.vue'
 import FAQView from '../views/FAQView.vue'
 
 import ConnexionView from '../views/Compte/ConnexionView.vue'
-import CompteView from '../views/Compte/CompteView.vue'
 import CalendrierView from '../views/Compte/CalendrierView.vue'
 
 import MentionLegalView from '../views/MentionLegalView.vue'
@@ -53,7 +52,6 @@ const router = createRouter({
     { path: '/FAQ', name: 'FAQ', component: FAQView },
 
     { path: '/Connexion', name: 'Connexion', component: ConnexionView },
-    { path: '/Compte', name: 'Compte', component: CompteView },
     { path: '/Calendrier', name: 'Calendrier', component: CalendrierView },
 
     { path: '/ML', name: 'ML', component: MentionLegalView },
