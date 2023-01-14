@@ -6,7 +6,7 @@ import temoignageDroite from '@/components/temoignage_Droite.vue';
 
 <template>
     <div class="flex justify-center items-center py-12">
-        <h1 class="text-center text-xl md:text-2xl text-Blue01 font-Montserrat dark:text-white font-semibold z-10">ALTERNANCE</h1>
+        <h1 class="text-center text-2xl text-Blue01 font-Montserrat dark:text-white font-semibold z-10">ALTERNANCE</h1>
         <div class="w-16 h-5 bg-Jaune -translate-x-11 translate-y-2 z-0"></div>
 
     </div>
