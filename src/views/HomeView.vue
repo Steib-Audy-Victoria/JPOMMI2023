@@ -10,8 +10,8 @@ import BtnEvenement from '@/components/btnEvenement.vue';
     <!--Section 1 (S1) : Présentation-->
     <section class="bg-[url('/public/HomeS1iut.svg')] bg-no-repeat bg-cover">
       <div class="flex flex-col justify-center items-center py-80 xl:py-96">
-        <LogoMMIHome class=" mb-20 mt-6" />
-        <h1 class="text-center text-white text-2xl md:text-3xl font-Montserrat font-semibold my-4">JOURNÉES PORTES
+        <LogoMMIHome class="w-80 lg:w-auto mb-20 mt-6" />
+        <h1 class="text-center text-white text-xl md:text-3xl font-Montserrat font-semibold my-4">JOURNÉES PORTES
           OUVERTES
           <br>
           SAMEDI 28 JANVIER 2023
@@ -26,7 +26,7 @@ import BtnEvenement from '@/components/btnEvenement.vue';
     <section>
       <div class="flex justify-center items-center">
         <h2 class="text-center text-xl md:text-2xl text-Blue01 dark:text-white font-semibold font-Montserrat z-10">DÉCOUVREZ LA FORMATION MMI</h2>
-        <div class="w-16 h-5 bg-Jaune -translate-x-11 translate-y-2 z-0"></div>
+        <div class="hidden md:block w-16 h-5 bg-Jaune -translate-x-11 translate-y-2 z-0"></div>
       </div>
       <div class="grid grid-cols-1 md:grid-cols-2 m-4 lg:m-16">
         <div>
@@ -67,7 +67,7 @@ import BtnEvenement from '@/components/btnEvenement.vue';
     <section  class="pb-20">
       <div class="flex justify-center items-center">
         <h2 class="text-center text-xl md:text-2xl text-Blue01 font-Montserrat dark:text-white font-semibold z-10">ÉVÉNEMENTS DU DÉPARTEMENT</h2>
-        <div class="w-16 h-5 bg-Jaune -translate-x-11 translate-y-2 z-0"></div>
+        <div class="hidden md:block w-16 h-5 bg-Jaune -translate-x-11 translate-y-2 z-0"></div>
       </div>
       <p class="text-center my-6 font-Montserrat">Retrouvez ici tous les événements du département !</p>
       <!-- <div class="flex justify-evenly py-24">
@@ -176,7 +176,7 @@ import BtnEvenement from '@/components/btnEvenement.vue';
 
     <!--Section 4 (S4) : Connexion prof / étudiants-->
     <section class="bg-[url('/public/HomeS4Connexion.webp')] bg-no-repeat bg-cover flex flex-col justify-center items-center pb-36">
-      <LogoMMIHome class=" my-28" />
+      <LogoMMIHome class="w-80 lg:w-auto my-28" />
       <h2 class="text-center text-xl md:text-2xl font-Montserrat font-semibold text-white my-6">VOUS ÊTES PROFESSEUR / ÉTUDIANT DU
         DÉPARTEMENT ?</h2>
       <div class="flex flex-col lg:flex-row justify-around items-center gap-12 my-12  m-4 lg:m-0 lg:my-12">
