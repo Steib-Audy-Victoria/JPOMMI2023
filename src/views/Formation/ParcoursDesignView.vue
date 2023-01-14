@@ -10,10 +10,10 @@ import btnPageG from '@/components/btnPageG.vue';
 
 <template>
     <div class="py-12">
-        <h1 class="text-center text-xl md:text-2xl text-Blue01 font-Montserrat dark:text-white font-semibold z-10">BUT MMI</h1>
+        <h1 class="text-center text-2xl text-Blue01 font-Montserrat dark:text-white font-semibold z-10">BUT MMI</h1>
         <div class="flex justify-center items-center ">
-            <h2 class="text-center text-xl md:text-2xl text-Blue01 font-Montserrat dark:text-white font-semibold z-10">PARCOURS CREATION NUMERIQUE</h2>
-            <div class="w-16 h-5 bg-Jaune -translate-x-11 translate-y-2 z-0"></div>
+            <h2 class="text-center text-2xl text-Blue01 font-Montserrat dark:text-white font-semibold z-10">PARCOURS CREATION NUMERIQUE</h2>
+            <div class="hidden md:block w-16 h-5 bg-Jaune -translate-x-11 translate-y-2 z-0"></div>
         </div>
     </div>
 
@@ -90,7 +90,7 @@ import btnPageG from '@/components/btnPageG.vue';
                     web durant leur formation, et d’être
                     accompagnés tout au long de la formation.</p>
             </div>
-            <div class="flex justify-center items-center ">
+            <div class="flex justify-center items-center  py-8">
                 <div class="bg-Jaune  z-0">
                     <img class="z-10 translate-x-5 -translate-y-5" src="/public/DesignS3Innovation.webp" alt="">
                 </div>
@@ -130,7 +130,7 @@ import btnPageG from '@/components/btnPageG.vue';
     <section>
         <div class="flex justify-center items-center">
             <h3 class="text-center text-xl md:text-2xl text-Blue01 font-Montserrat dark:text-white font-semibold z-10">Des projets innovants</h3>
-            <div class="w-16 h-5 bg-Jaune -translate-x-11 translate-y-2 z-0"></div>
+            <div class="hidden md:block w-16 h-5 bg-Jaune -translate-x-11 translate-y-2 z-0"></div>
         </div>
         <div class="carousel m-6">
             <div class="carousel-item">
@@ -157,10 +157,10 @@ import btnPageG from '@/components/btnPageG.vue';
             <div class="flex justify-center items-center">
                 <h3 class="text-center text-xl md:text-2xl text-Blue01 font-Montserrat dark:text-white font-semibold z-10">Témoignages de nos anciens
                     étudiants</h3>
-                <div class="w-16 h-5 bg-Jaune -translate-x-11 translate-y-2 z-0"></div>
+                <div class="hidden md:block w-16 h-5 bg-Jaune -translate-x-11 translate-y-2 z-0"></div>
             </div>
             <div>
-                <temoignageGauche :image="imgJulienPaquier" nom="Julien Paquier"
+                <temoignageGauche class="my-4" :image="imgJulienPaquier" nom="Julien Paquier"
                     avis="MMI m’a apporté de solides bases dans le design, la communication et le développement web. Désormais, grâce à MMI, je suis beaucoup plus à l’aise de passer à l’oral et de présenter mes travaux. 
                                     Après MMI, j’ai rejoint l’HETIC Paris en parcours grande école. Je suis actuellement en stage en tant que digital producer à Betc fullsix. Mon rôle au sein de cette entreprise est de faire des réunions avec de grands clients comme Citroën, puis de comprendre leur demande et leurs besoins. Puis de faire un brief pour des ressources créatives. Je gère de A à Z le projet jusqu’à la livraison finale." />
                 <temoignageDroite :image="imgAloisBolou" nom="Aloïs Bolou"
@@ -172,12 +172,12 @@ import btnPageG from '@/components/btnPageG.vue';
 
     <!--Bouton passage des pages parcours-->
 
-    <div class="flex justify-between items-center p-10">
+    <div class="flex flex-col lg:flex-row justify-between items-center p-10">
         <RouterLink to="/Dev" >
-            <btnPageG text="DÉCOUVREZ LE PARCOURS DÉVELOPPEMENT WEB ET DISPOSITIFS INTERACTIFS" />
+            <btnPageG class="my-2 lg:my-0" text="DÉCOUVREZ LE PARCOURS DÉVELOPPEMENT WEB ET DISPOSITIFS INTERACTIFS" />
         </RouterLink> 
         <RouterLink to="/Com">
-            <btnPageD text="DÉCOUVREZ LE PARCOURS STRATÉGIE DE COMMUNICATION NUMÉRIQUE ET DESIGN D’EXPÉRIENCE" />
+            <btnPageD class="my-2 lg:my-0" text="DÉCOUVREZ LE PARCOURS STRATÉGIE DE COMMUNICATION NUMÉRIQUE ET DESIGN D’EXPÉRIENCE" />
         </RouterLink>
     </div>
 </template>
