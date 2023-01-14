@@ -126,11 +126,13 @@
         <div class="py-2">
           <button class="button block" @click="signOut" :disabled="loading">Déconnexion</button>
         </div>
+            <div class="py-4">
+              <RouterLink class="font-Montserrat text-Blue02  font-normal text-lg text-center italic underline" to="/Calendrier">
+                Lien vers le calendrier de la JPO</RouterLink>
+            </div>
       </div>
     </form>
 
-    <div class="py-4">
-      <RouterLink class="font-Montserrat text-Blue02  font-normal text-lg text-center italic underline" to="/Calendrier"> Lien vers le calendrier de la JPO</RouterLink>
-    </div>
+
   </div>
 </template>
