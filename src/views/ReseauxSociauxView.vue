@@ -6,8 +6,8 @@ import sound from "../components/iconSound.vue"
 
 <template>
     <div class="flex justify-center items-center py-12">
-        <h1 class="text-center font-Montserrat text-xl md:text-2xl text-Blue01 dark:text-white font-semibold z-10">RÉSEAUX SOCIAUX</h1>
-        <div class="w-16 h-5 bg-Jaune -translate-x-11 translate-y-2 z-0"></div>
+        <h1 class="text-center font-Montserrat text-2xl text-Blue01 dark:text-white font-semibold z-10">RÉSEAUX SOCIAUX</h1>
+        <div class="hidden lg:block w-16 h-5 bg-Jaune -translate-x-11 translate-y-2 z-0"></div>
     </div>
     <section class="pb-10">
         <div class="flex justify-center items-center mb-6">
