@@ -18,7 +18,7 @@
 </script>
 
 <template>
-  <div class="container" style="padding: 50px 0 100px 0">
+  <div >
     <Account v-if="session" :session="session" />
     <Auth v-else />
   </div>

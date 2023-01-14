@@ -24,21 +24,22 @@
 </script>
 
 <template>
-  <form class="row flex-center flex" @submit.prevent="handleLogin">
-    <div class="col-6 form-widget">
-      <h1 class="header">Supabase + Vue 3</h1>
-      <p class="description">Sign in via magic link with your email below</p>
-      <div>
-        <input class="inputField" type="email" placeholder="Your email" v-model="email" />
+  <div class="bg-none lg:bg-[url('/public/Photo_IUT2.webp')] bg-cover bg-no-repeat w-screen py-40">
+    <form class="flex justify-center items-center " @submit.prevent="handleLogin">
+      <div class="py-6 w-screen lg:w-1/2 lg:bg-white flex flex-col justify-center items-center" >
+        <h1 class=" text-Blue02 font-medium font-Montserrat text-xl">CONNEXION / INSCRIPTION</h1>
+        <p></p>
+        <div class="py-2">
+          <input class="border-b border-black placeholder:text-Grey02  placeholder:font-Montserrat w-80"  type="email" placeholder="Entrez votre email" v-model="email" />
+        </div>
+        <div class="py-2">
+          <input
+            type="submit"
+            :value="loading ? 'Loading' : 'Mail de confirmation envoyer'"
+            :disabled="loading"
+          />
+        </div>
       </div>
-      <div>
-        <input
-          type="submit"
-          class="button block"
-          :value="loading ? 'Loading' : 'Send magic link'"
-          :disabled="loading"
-        />
-      </div>
-    </div>
-  </form>
+    </form>
+  </div>
 </template>
