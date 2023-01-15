@@ -35,7 +35,7 @@
         <div class="py-2">
           <input
             type="submit"
-            :value="loading ? 'Loading' : 'Mail de confirmation envoyer'"
+            :value="loading ? 'Loading' : 'Confirmer email'"
             :disabled="loading"
           />
         </div>
