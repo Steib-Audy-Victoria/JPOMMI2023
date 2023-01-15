@@ -9,7 +9,7 @@ import Mail from '@/components/mail.vue';
 import iconUrl from '/public/marker-icon-3x.png';
 import shadowUrl from '/public/marker-shadow.png';
 
-
+    //Code pour la carte OSM
 // Import éléments de vue
 import { onMounted, ref, reactive } from 'vue'
 // Import leaflet
@@ -60,21 +60,6 @@ onMounted(async () => {
     // Ajout d'une infobulle
     marker.bindPopup("Département MMI")
 
-    // Recentrage de la carte au bout de 5 secondes
-    // à une autre position
-    // setTimeout(function () { 
-    //   map.panTo([47.50133850064826, 6.807621746718467])
-    // }, 5000);
-
-    // // Ajout d'un marqueur
-    // // à la position de centrage
-    // let marker2 = Leaflet.marker(
-    //     [47.50133850064826, 6.807621746718467], 
-    //     {icon: myIcon}
-    //   ).addTo(map)
-
-    // // Ajout d'une infobulle
-    // marker2.bindPopup("Je suis la gendarmerie nationale")
 
 })
 </script>

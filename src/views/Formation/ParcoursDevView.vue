@@ -8,6 +8,7 @@ import btnPageG from '@/components/btnPageG.vue';
 </script>
 
 <template>
+    <!--Titre-->
     <div class="py-12">
         <h1 class="text-center text-2xl text-Blue01 font-Montserrat dark:text-white font-semibold z-10">BUT MMI</h1>
         <div class="flex justify-center items-center ">
@@ -39,7 +40,7 @@ import btnPageG from '@/components/btnPageG.vue';
             </div>
             <div class="flex justify-center items-center ">
                 <div class="bg-Jaune  z-0">
-                    <img class="z-10 -translate-x-8 translate-y-5" src="/public/DevS1.webp" alt="">
+                    <img class="z-10 -translate-x-8 translate-y-5" src="/public/DevS1.webp" alt="Image d'illustration pour le développement web - Montrant des étudiants en train de travailler sur des ordinateurs, avec des casques sur les oreilles">
                 </div>
             </div>
         </div>
@@ -49,7 +50,7 @@ import btnPageG from '@/components/btnPageG.vue';
     <section class="my-20">
         <div class="grid grid-cols-1 md:grid-cols-2">
             <div class="flex justify-center items-center">
-                <img src="/public/DevS2Logos.svg" alt="">
+                <img src="/public/DevS2Logos.svg" alt="Logo d'outils utiliser en développement - Logo Javascript, Logo Vue JS, Logo HTML 5, Logo CSS 3">
             </div>
             <div class="flex flex-col justify-center items-center font-Montserrat">
                 <h3 class="text-center text-lg md:text-xl text-Blue01 dark:text-white font-semibold py-4">Les compétences enseignées
@@ -104,7 +105,7 @@ import btnPageG from '@/components/btnPageG.vue';
             </div>
             <div class="flex justify-center items-center py-8">
                 <div class="bg-Jaune  z-0">
-                    <img class="z-10 translate-x-5 -translate-y-5" src="/public/DevS3.webp" alt="">
+                    <img class="z-10 translate-x-5 -translate-y-5" src="/public/DevS3.webp" alt="Image d'illustration des technologies du monde">
                 </div>
             </div>
         </div>
@@ -118,19 +119,19 @@ import btnPageG from '@/components/btnPageG.vue';
         </div>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
             <div class="flex flex-col justify-center items-center font-Montserrat py-4">
-                <img class="w-60 h-w-60 rounded-full " src="/public/DevS6Abdallah_Makhoul.webp" alt="">
+                <img class="w-60 h-w-60 rounded-full " src="/public/DevS6Abdallah_Makhoul.webp" alt="Photo de Monsieur Abdallah Makhoul, Enseignant-Chercheur, du parcours développement">
                 <p class="font-bold py-2">Abdallah Makhoul</p>
                 <p>Enseignant-Chercheur Femto-ST</p>
                 <p class="py-2">14 ans d’expertise</p>
             </div>
             <div class="flex flex-col justify-center items-center font-Montserrat py-4">
-                <img class="w-60 h-w-60 rounded-full " src="/public/DevS6Jean-Marie_Fino.webp" alt="">
+                <img class="w-60 h-w-60 rounded-full " src="/public/DevS6Jean-Marie_Fino.webp" alt="Photo de Monsieur Jean-Marie Fino, Enseignant, du parcours développement">
                 <p class="font-bold py-2">Jean-Marie Fino</p>
                 <p>Enseignant - Maitre de conférence associé</p>
                 <p class="py-2">26 ans d’expertise</p>
             </div>
             <div class="flex flex-col justify-center items-center font-Montserrat py-4">
-                <img class="w-60 h-w-60 rounded-full " src="/public/DevS6Hakim_Mabed.webp" alt="">
+                <img class="w-60 h-w-60 rounded-full " src="/public/DevS6Hakim_Mabed.webp" alt="Photo de Monsieur Hakim Mabed, Enseignant-Chercheur, du parcours développement">
                 <p class="font-bold py-2">Hakim Mabed</p>
                 <p>Enseignant-Chercheur en hébergement web</p>
                 <p class="py-2">14 ans d’expertise</p>
@@ -145,8 +146,8 @@ import btnPageG from '@/components/btnPageG.vue';
             <div class="hidden md:block w-16 h-5 bg-Jaune -translate-x-11 translate-y-2 z-0"></div>
         </div>
         <div class="flex flex-col lg:flex-row justify-center items-center gap-4 py-6">
-            <img src="/public/DevS5projet1.webp" alt="">
-            <img src="/public/DevS5projet2.webp" alt="">           
+            <img src="/public/DevS5projet1.webp" alt="Image d'illustration du projet MUSE'AIC">
+            <img src="/public/DevS5projet2.webp" alt="Image d'illustration du projet ARQUEST">           
         </div>
     </section>
 

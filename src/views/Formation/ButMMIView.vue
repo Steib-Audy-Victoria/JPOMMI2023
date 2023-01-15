@@ -1,5 +1,6 @@
 <template>
     <div class="bg-[url('/public/HomeLine.svg')]">
+        <!--Titre-->
         <div class="flex justify-center items-center py-12">
             <h1 class="text-center text-2xl text-Blue01 font-Montserrat dark:text-white font-semibold z-10">BUT MMI</h1>
             <div class="w-16 h-5 bg-Jaune -translate-x-11 translate-y-2 z-0"></div>
@@ -37,7 +38,7 @@
                 </div>
                 <div class="flex justify-center items-center py-6">
                     <div class="bg-Jaune  z-0">
-                        <img class="z-10 -translate-x-8 -translate-y-4 " src="/public/ButMMIS1.webp" alt="">
+                        <img class="z-10 -translate-x-8 -translate-y-4 " src="/public/ButMMIS1.webp" alt="Photo d'illustration montrant des étudiants travaillant sur les postes de travail du département MMI">
                     </div>
                 </div>
             </div>
@@ -90,7 +91,7 @@
                     </ul>
                 </div>
                 <div class="flex justify-center items-center">
-                    <img src="/public/ButMMIS2NewBut.svg" alt="">
+                    <img src="/public/ButMMIS2NewBut.svg" alt="Schéma présentant le nouveau BUT - BAC+1 : Les Bases, BAC+2 : L'approfondissement, BAC+3 : La spécialisation">
                 </div>
             </div>
         </section>
@@ -133,7 +134,7 @@
                     </div>
                 </div>
                 <div class="flex justify-center items-center">
-                    <img src="/public/ButMMIS3parcoursup.webp" alt="">
+                    <img src="/public/ButMMIS3parcoursup.webp" alt="Image de parcoursup">
                 </div>
             </div>
             <div class="px-10">

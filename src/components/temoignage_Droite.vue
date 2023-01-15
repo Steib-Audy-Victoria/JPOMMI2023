@@ -4,7 +4,7 @@
             <p class="text-white font-Montserrat p-4">{{avis}}</p>
         </div>
         <div class="flex flex-col justify-center items-center">
-            <img class="rounded-full w-72  h-72" :src="image" alt="">
+            <img class="rounded-full w-72  h-72" :src="image" alt="Image de l'étudiant(e)">
             <p class="mt-2 font-Montserrat">{{nom}}</p>
         </div>
 

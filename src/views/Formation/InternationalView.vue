@@ -5,6 +5,7 @@ import temoignageDroite from '@/components/temoignage_Droite.vue';
 </script>
 
 <template>
+    <!--Titre-->
     <div class="flex justify-center items-center py-12">
         <h1 class="text-center text-2xl text-Blue01 font-Montserrat dark:text-white font-semibold z-10">INTERNATIONAL</h1>
         <div class="w-16 h-5 bg-Jaune -translate-x-11 translate-y-2 z-0"></div>
@@ -17,7 +18,7 @@ import temoignageDroite from '@/components/temoignage_Droite.vue';
             pour un semestre, un stage
             à l’étranger, mais aussi quelques jours au festival OFFF de Barcelone.</p>
         <div class="flex justify-center items-center my-6">
-            <img src="/public/InternationalS1Vanier.webp" alt="">
+            <img src="/public/InternationalS1Vanier.webp" alt="Photo du CÉGEP de Vanier">
         </div>
         <p class=" px-10 lg:px-20 py-2">Durant la deuxième année du BUT MMI, il est possible de partir au Canada durant un
             semestre (Semestre 3 / Semestre 4).
@@ -46,7 +47,7 @@ import temoignageDroite from '@/components/temoignage_Droite.vue';
                 des couvertures de magazines.</p>
         </div>
         <div class="flex justify-center items-center">
-            <img src="/public/InternationalS2.webp" alt="">
+            <img src="/public/InternationalS2.webp" alt="Illustration de projet de couvertures de magazines">
         </div>
 
     </section>
@@ -60,12 +61,12 @@ import temoignageDroite from '@/components/temoignage_Droite.vue';
         <div class="flex flex-col justify-center items-center gap-3">
 
             <div class="flex flex-col lg:flex-row gap-3">
-                <img src="/public/InternationalS3canada.webp" alt="">
-                <img src="/public/InternationalS3presentation.webp" alt="">
+                <img src="/public/InternationalS3canada.webp" alt="Photo prise par des étudiants lors de leurs séjour au Canada - Vue de jour">
+                <img src="/public/InternationalS3presentation.webp" alt="Photo prise par des étudiants lors de leurs séjour au Canada - Vue d'une rue">
             </div>
             <div class="flex flex-col lg:flex-row gap-3">
-                <img src="/public/InternationalS3nuit.webp" alt="">
-                <img src="/public/InternationalS3busScolaire.webp" alt="">
+                <img src="/public/InternationalS3nuit.webp" alt="Photo prise par des étudiants lors de leurs séjour au Canada - Photo de nuit">
+                <img src="/public/InternationalS3busScolaire.webp" alt="Photo prise par des étudiants lors de leurs séjour au Canada - Photo d'un bus scolaire">
             </div>
         </div>
 
@@ -106,18 +107,18 @@ import temoignageDroite from '@/components/temoignage_Droite.vue';
                     culture artistique et culturelle.</p>
             </div>
             <div class=" flex justify-center items-center">
-                <img src="/public/InternationalS5OFF.webp" alt="">
+                <img src="/public/InternationalS5OFF.webp" alt="Photo d'une oeuvre exposer lors du festival OFFF de Barcelone">
             </div>
         </div>
         <div class="carousel rounded-box m-6">
             <div class="carousel-item">
-                <img class="w-screen" src="/public/InternationalS5img1.webp" alt="">
+                <img class="w-screen" src="/public/InternationalS5img1.webp" alt="Photo d'une oeuvre numérique pour le festival OFFF de Barcelone">
             </div>
             <div class="carousel-item">
-                <img class="w-screen" src="/public/InternationalS5img2.webp" alt="">
+                <img class="w-screen" src="/public/InternationalS5img2.webp" alt="Photo d'une oeuvre numérique présenter lors du festival OFFF de Barcelone">
             </div>
             <div class="carousel-item">
-                <img class="w-screen" src="/public/InternationalS5img3.webp" alt="">
+                <img class="w-screen" src="/public/InternationalS5img3.webp" alt="Photo général du lieu d'exposition des oeuvres du festival OFFF de Barcelone">
             </div>
         
         </div>

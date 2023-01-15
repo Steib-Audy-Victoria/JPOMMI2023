@@ -9,6 +9,7 @@ import btnPageG from '@/components/btnPageG.vue';
 </script>
 
 <template>
+    <!--Titre-->
     <div class="py-12">
         <h1 class="text-center text-2xl text-Blue01 font-Montserrat dark:text-white font-semibold z-10">BUT MMI</h1>
         <div class="flex justify-center items-center ">
@@ -40,7 +41,7 @@ import btnPageG from '@/components/btnPageG.vue';
             </div>
             <div class="flex justify-center items-center ">
                 <div class="bg-Jaune  z-0">
-                    <img class="z-10 -translate-x-8 translate-y-5" src="/public/DesignS1.webp" alt="">
+                    <img class="z-10 -translate-x-8 translate-y-5" src="/public/DesignS1.webp" alt="Photo d'une étudiante, travaillant sur le montage d'une vidéo">
                 </div>
             </div>
         </div>
@@ -50,7 +51,7 @@ import btnPageG from '@/components/btnPageG.vue';
     <section class="my-20">
         <div class="grid grid-cols-1 md:grid-cols-2">
             <div class="flex justify-center items-center">
-                <img src="/public/DesignS2Logos.svg" alt="">
+                <img src="/public/DesignS2Logos.svg" alt="Logo des logiciels utiliser en design - Logo Figma, Logo DaVinci Resolve, Logo Adobe Illustrator, Logo Adobe Photoshop">
             </div>
             <div class="flex flex-col justify-center items-center font-Montserrat">
                 <h3 class="text-center text-lg md:text-xl text-Blue01 dark:text-white font-semibold py-4">Les logiciels à découvrir</h3>
@@ -92,7 +93,7 @@ import btnPageG from '@/components/btnPageG.vue';
             </div>
             <div class="flex justify-center items-center  py-8">
                 <div class="bg-Jaune  z-0">
-                    <img class="z-10 translate-x-5 -translate-y-5" src="/public/DesignS3Innovation.webp" alt="">
+                    <img class="z-10 translate-x-5 -translate-y-5" src="/public/DesignS3Innovation.webp" alt="Image d'illustration d'une ampoule pour montrer la recherche d'innovation">
                 </div>
             </div>
         </div>
@@ -106,19 +107,19 @@ import btnPageG from '@/components/btnPageG.vue';
         </div>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
             <div class="flex flex-col justify-center items-center font-Montserrat py-4">
-                <img class="w-60 h-w-60 rounded-full " src="/public/DesignS4Xavier_Senente.webp" alt="">
+                <img class="w-60 h-w-60 rounded-full " src="/public/DesignS4Xavier_Senente.webp" alt="Photo de Monsieur Xavier Senente, Enseignant en design graphique, du parcours design">
                 <p class="font-bold py-2">Xavier Senente</p>
                 <p>Enseignant en design graphique</p>
                 <p class="py-2">22 ans d’expertise</p>
             </div>
             <div class="flex flex-col justify-center items-center font-Montserrat py-4">
-                <img class="w-60 h-w-60 rounded-full " src="/public/DesignS4Alain_Lamboux-Durand.webp" alt="">
+                <img class="w-60 h-w-60 rounded-full " src="/public/DesignS4Alain_Lamboux-Durand.webp" alt="Photo de Monsieur Alain Lamboux-Durand, Chef du département MMI">
                 <p class="font-bold py-2">Alain Lamboux-Durand</p>
                 <p>Chef du département MMI</p>
                 <p class="py-2">19 ans d’expertise</p>
             </div>
             <div class="flex flex-col justify-center items-center font-Montserrat py-4">
-                <img class="w-60 h-w-60 rounded-full " src="/public/DesignS4Sebastien_Augier.webp" alt="">
+                <img class="w-60 h-w-60 rounded-full " src="/public/DesignS4Sebastien_Augier.webp" alt="Photo de Monsieur Sébastien Augier, Enseignant en audiovisuel, du parcours design">
                 <p class="font-bold py-2">Sébastien Augier</p>
                 <p>Professeur agrégé en audiovisuel</p>
                 <p class="py-2">18 ans d’expertise</p>
@@ -134,19 +135,19 @@ import btnPageG from '@/components/btnPageG.vue';
         </div>
         <div class="carousel m-6">
             <div class="carousel-item">
-                <img src="/public/DesignS5Affiche_Antonin_Heuguet.webp" alt="">
+                <img src="/public/DesignS5Affiche_Antonin_Heuguet.webp" alt="Affiche créer par Antonin Heuguet, lors d'une SAE de design">
             </div>
             <div class="carousel-item">
-                <img src="/public/DesignS5Affiche_Eden_Bourezg.webp" alt="">
+                <img src="/public/DesignS5Affiche_Eden_Bourezg.webp" alt="Affiche créer par Eden Bourezg, lors d'une SAE de design">
             </div>
             <div class="carousel-item">
-                <img src="/public/DesignS5Affiche_Matthieu_Hoareau.webp" alt="">
+                <img src="/public/DesignS5Affiche_Matthieu_Hoareau.webp" alt="Affiche créer par Matthieu Hoareau, lors d'une SAE de design">
             </div>
             <div class="carousel-item">
-                <img src="/public/DesignS5Affiche_Paul_Tresse.webp" alt="">
+                <img src="/public/DesignS5Affiche_Paul_Tresse.webp" alt="Affiche créer par Paul Tresse, lors d'une SAE de design">
             </div>
             <div class="carousel-item">
-                <img src="/public/DesignS5Affiche_Sacha_Wicky.webp" alt="">
+                <img src="/public/DesignS5Affiche_Sacha_Wicky.webp" alt="Affiche créer par Sacha Wicky, lors d'une SAE de design">
             </div>
         </div>
     </section>

@@ -32,10 +32,6 @@ import sound from "../components/iconSound.vue"
     <section class="bg-Blue02  pb-3">
         <h2 class="px-10 py-4 font-semibold text-white font-Montserrat">Actualités du département</h2>
         <div>
-            <div>
-
-                
-            </div>
             
         </div>
         <a href="https://www.instagram.com/mmi_montbeliard/" target="_blank">

@@ -8,6 +8,7 @@ import btnPageG from '@/components/btnPageG.vue';
 </script>
 
 <template>
+    <!--Titre-->
     <div class="py-12">
         <h1 class="text-center text-2xl text-Blue01 font-Montserrat dark:text-white font-semibold z-10">BUT MMI</h1>
         <div class="flex justify-center items-center ">
@@ -41,7 +42,7 @@ import btnPageG from '@/components/btnPageG.vue';
             </div>
             <div class="flex justify-center items-center ">
                 <div class="bg-Jaune  z-0">
-                    <img class="z-10 -translate-x-8 translate-y-5" src="/public/ComS1.webp" alt="">
+                    <img class="z-10 -translate-x-8 translate-y-5" src="/public/ComS1.webp" alt="Image d'illustration montrant des étudiantes travailant sur un ordinateur">
                 </div>
             </div>
         </div>
@@ -51,7 +52,7 @@ import btnPageG from '@/components/btnPageG.vue';
     <section class="my-20">
         <div class="grid grid-cols-1 md:grid-cols-2">
             <div class="flex justify-center items-center">
-                <img src="/public/ComS2Logos.svg" alt="">
+                <img src="/public/ComS2Logos.svg" alt="Logo d'outils utiliser - Google Drive, Google Docs, Google Slides, Googles Sheets, ou la suite microsoft">
             </div>
             <div class="flex flex-col justify-center items-center font-Montserrat">
                 <h3 class="text-center text-lg md:text-xl text-Blue01 dark:text-white font-semibold py-4">Les outils utilisés</h3>
@@ -92,7 +93,7 @@ import btnPageG from '@/components/btnPageG.vue';
             </div>
             <div class="flex justify-center items-center py-8">
                 <div class="bg-Jaune  z-0">
-                    <img class="z-10 translate-x-5 -translate-y-5" src="/public/ComS3.webp" alt="">
+                    <img class="z-10 translate-x-5 -translate-y-5" src="/public/ComS3.webp" alt="Illustration montrant un groupe de personne travaillant ensemble">
                 </div>
             </div>
         </div>
@@ -106,19 +107,19 @@ import btnPageG from '@/components/btnPageG.vue';
         </div>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 font-Montserrat">
             <div class="flex flex-col justify-center items-center py-4">
-                <img class="w-60 h-w-60 rounded-full " src="/public/ComS4Pascal_Chatonnay.webp" alt="">
+                <img class="w-60 h-w-60 rounded-full " src="/public/ComS4Pascal_Chatonnay.webp" alt="Photo de Monsieur Pascal Chatonnay, Enseignant-Chercheur, du parcours communication">
                 <p class="font-bold py-2">Pascal Chatonnay</p>
                 <p>Enseignant-Chercheur Numerica</p>
                 <p class="py-2">25 ans d’expertise</p>
             </div>
             <div class="flex flex-col justify-center items-center py-4">
-                <img class="w-60 h-w-60 rounded-full " src="/public/ComS4Jean-Claude_Domenget.webp" alt="">
+                <img class="w-60 h-w-60 rounded-full " src="/public/ComS4Jean-Claude_Domenget.webp" alt="Photo de Monsieur Jean-Claude Domenget, Enseignant en communication numérique, du parcours communication">
                 <p class="font-bold py-2">Jean-Claude Domenget</p>
                 <p>Enseignant en communication numérique</p>
                 <p class="py-2">11 ans d’expertise</p>
             </div>
             <div class="flex flex-col justify-center items-center py-4">
-                <img class="w-60 h-w-60 rounded-full " src="/public/ComS4David_Malsot.webp" alt="">
+                <img class="w-60 h-w-60 rounded-full " src="/public/ComS4David_Malsot.webp" alt="Photo de Monsieur David Malsot, Enseignant, du parcours communication">
                 <p class="font-bold py-2">David Malsot</p>
                 <p>Enseignant en communication</p>
                 <p class="py-2">14 ans d’expertise</p>
@@ -135,8 +136,8 @@ import btnPageG from '@/components/btnPageG.vue';
         <div>
             <p class="font-Montserrat text-base px-4 py-2">Élaboration d’une stratégie de communication pour le lancement d’un restaurant</p>
             <div class="grid grid-cols-1 xl:grid-cols-2 place-items-center ">
-                <img class="p-2" src="/public/ComS5projet1.webp" alt="">
-                <img class="p-2" src="/public/ComS5projet2.webp" alt="">
+                <img class="p-2" src="/public/ComS5projet1.webp" alt="Image qui provient de l'élaboration d'une stratégie de communication pour le lancement d'un restaurant - Présentation du chef et des horaires">
+                <img class="p-2" src="/public/ComS5projet2.webp" alt="Image qui provient de l'élaboration d'une stratégie de communication pour le lancement d'un restaurant - Présentation du restaurant">
             </div>
         </div>
     </section>
