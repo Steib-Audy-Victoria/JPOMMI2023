@@ -150,9 +150,9 @@ import LogoMMI from './LogoMMI.vue';
                             </MenuItems>
                         </transition>
                     </Menu>
-                    <RouterLink to="/RS">RÉSEAUX SOCIAUX</RouterLink>
-                    <RouterLink to="/FAQ">FAQ</RouterLink>
-                    <RouterLink to="/Contact">CONTACT</RouterLink>
+                    <RouterLink class="text-black" to="/RS">RÉSEAUX SOCIAUX</RouterLink>
+                    <RouterLink class="text-black" to="/FAQ">FAQ</RouterLink>
+                    <RouterLink class="text-black" to="/Contact">CONTACT</RouterLink>
                 </div>
             </nav>
         </div>
