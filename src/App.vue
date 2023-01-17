@@ -11,7 +11,7 @@ import Footer from './components/Footer.vue';
     <header>
       <Header></Header>
       <!--Bouton Darkmode-->
-      <div class="flex gap-2 items-center bg-Grey03 dark:bg-Grey01">
+      <div class="flex gap-2 items-center bg-Grey03  dark:bg-Grey01">
         <p class="flex text-lg font-Montserrat dark:text-white duration-700">Dark Mode</p>
         <!-- Début Bouton Switch -->
         <label
@@ -24,7 +24,7 @@ import Footer from './components/Footer.vue';
       <!--Fin Bouton Darkmode-->
     </header>
 
-    <main class="bg-Grey03 dark:bg-Grey01 dark:text-white">
+    <main class="bg-Grey03 dark:bg-Grey01 text-black dark:text-white">
       <RouterView />
     </main>
 
